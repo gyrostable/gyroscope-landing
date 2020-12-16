@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <meta
+      name="author"
+      content="Ariah Klages-Mundt   Lewis Gudgeon   Daniel Perez"
+    />
+    <title>Gyroscopic Stablecoins: Litepaper</title>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link href="css/landing-page.css" rel="stylesheet" />
+    <link href="css/litepaper.css" rel="stylesheet" />
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Gyroscope</a>
+      </div>
+    </nav>
+    <div class="container">
+      <header class="title" id="title-block-header">
+        <h1 class="title">Gyroscopic Stablecoins: Litepaper</h1>
+        <p class="author">
+          Ariah Klages-Mundt, Lewis Gudgeon and Daniel Perez
+        </p>
+        <p class="date">November 2020</p>
+      </header>
+      <h1 id="abstract">Abstract</h1>
+      <p>
+        Here we introduce a new class of stablecoin design: gyroscopic
+        stablecoins. Analogous to a gyroscope, gyroscopic stablecoins use
+        automated market maker (AMM) mechanisms in combination with accretion
+        buffers to maintain stability. The accretion buffer serves as a growing
+        store of `angular momentum' in the gyroscope, which serves as a rainy
+        day fund that is used by a specially designed AMM to stabilize a primary
+        market for the stablecoin. The gyroscopic buffer deploys assets in ways
+        that stratify risk across tail risk groups while accreting value to the
+        system. Gyroscopic stablecoins contrast with existing stablecoins, which
+        are largely based on leverage mechanisms. Gyroscopic stablecoin
+        mechanisms can align incentives of participants toward stability over a
+        wider range of scenarios, leading to more flexible and robust systems
+        that probabilistically survive large failure events. Gyroscopic
+        stablecoins seek to provide the nearest feasible neighbour to a
+        risk-free asset for the crypto ecosystem.
+      </p>
+
+
+<h1 id="introduction">Introduction</h1>
+<p>All stablecoins come with significant failure risks, as we characterize in <span class="citation" data-cites="klages2020stablecoins">(Klages-Mundt et al. 2020)</span>. These range from traditional counterparty/censorship risks in custodial stablecoins to complex market structure, governance/oracle, and bug risk in non-custodial stablecoins. For stablecoins based on leverage markets (e.g., Dai), we’ve shown that stability incentives of participants in the underlying market can break down during turbulence, termed “deleveraging spirals.” We predicted/demonstrated these in <span class="citation" data-cites="klages2019stability">(Klages-Mundt and Minca 2019)</span> and formally characterized them in <span class="citation" data-cites="klages2020while">(Klages-Mundt and Minca 2020)</span>. These deleveraging spirals were later validated in Maker during the ‘Black Thursday’ crisis in March 2020.</p>
+<p>As we suggest in <span class="citation" data-cites="klages2020stablecoins">(Klages-Mundt et al. 2020)</span>, a design gap in current stablecoins is the incorporation of well-designed buffers to help survive transitory events. In <span class="citation" data-cites="klages2020while">(Klages-Mundt and Minca 2020)</span>, we show that non-custodial stablecoins can be stable in particular regions in which expected collateral returns are positive (formally a “submartingale”) and can break down outside of this. We suggest that critical stablecoin design work is needed to extend stability to survive realistic deviations from such ideal submartingale settings. As there is little that derivative design can do to help systems survive permanent downturn events (e.g., when the ecosystem can no longer survive long-term), we focus our efforts on the survival of significant but transitory downside events. Toward this goal, we suggest that real world systems must have adequate buffers so as to survive transitory events and expand the stable regions of stablecoins.</p>
+<p>We suggest that buffered stablecoin designs can go further to expand design possibilities beyond the leveraged-based stablecoins which preside today. In particular, in place of leveraged mechanisms, we consider the application of automated market maker (AMM) mechanisms, which may have more stable incentive dynamics under market turbulence than leverage markets as they are based on demand for asset exchange, which may increase with turbulence, as opposed to demand for speculative leverage, which may collapse. AMMs provide exchange service amongst assets in a liquidity pool using an algorithmic exchange price, which is usually either intended to converge to the true market price (e.g., Uniswap, Balancer pools) or to influence the true market price of a created asset (e.g., NXM). In the first case, AMM mechanisms can have an imperfect stabilizing effect on the value of liquidity provider (LP) positions. For instance, LPs in constant product markets achieve a constant mix portfolio that in effect averages returns among assets, profits from volatility harvesting, and profits from providing a valuable exchange service.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> This can be beneficial toward stable value insofar as the constant-mix portfolio stratifies risk. In the second case, AMM mechanisms can constrain price movements of a created asset.</p>
+<p>We propose a novel design class: <em>gyroscopic stablecoins</em>. This class uses automated market maker (AMM) mechanisms in combination with gyroscopic buffers to maintain stability. The buffer accretes ‘angular momentum’ in the gyroscope, which serves as a rainy day fund that is used by a specially designed AMM to stabilize a primary market for the stablecoin. The gyroscopic buffer deploys assets in ways that stratify risk across tail risk groups while accreting value to the system. Gyroscopic stablecoins are designed to be probabilistically stable while containing the cascade potential of complex decentralized finance (DeFi) risks. We suggest that gyroscopic stablecoin mechanisms can align incentives of participants toward stability over a wider range of scenarios, leading to more flexible and robust systems.</p>
+<p>We briefly compare with some related stablecoin mechanisms before describing the class of gyroscopic mechanisms in detail in the next section. The design of gyroscopic stablecoins builds on our preliminary work in the first place project at the 2020 IC3 Bootcamp <span class="citation" data-cites="klagesmundt-ic3">(Klages-Mundt, Gudgeon, and Perez 2020)</span> and an early version in a 2018 proposal <span class="citation" data-cites="klagesmundt_grant2018">(Klages-Mundt 2018)</span>.</p>
+<h4 id="comparison-with-current-basket-stablecoins-that-use-amms.">Comparison with current basket stablecoins that use AMMs.</h4>
+<p>At present, several basket stablecoins use a naive construction, wherein a basket of assets backs the stablecoin. A central issue such constructions atop AMMs is that the failure of one (or a few) assets can cascade into failure of the entire basket via the exchange mechanism. For stablecoin purposes, we liken this problem to the design of water-tight doors on the Titanic, in which the flooding of a few compartments had a spillover effect onto the remaining compartments.</p>
+<figure>
+<img src="figures/titanic_graphic.png" id="fig:titanic" style="width:60%" />
+</figure>
+<p>Gyroscopic stablecoins control for this issue in two main ways.</p>
+<ol>
+<li><p>by segregating buffer assets into pools in such a way that the possibility of contagion between the pools is minimized</p></li>
+<li><p>by designing the AMM to prevent the exhaustion of the buffer’s resources<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p></li>
+</ol>
+<h4 id="comparison-with-current-stablecoin-insurance-mechanisms.">Comparison with current stablecoin insurance mechanisms.</h4>
+<p>Some stablecoins add a layer to the protocol intended to globally buffer against shortfalls. In particular, many current stablecoins generate cash flows from fees that are securitized into governance tokens (e.g., MKR in Maker). To cover a shortfall situation, the value of future cash flows can be auctioned off by selling new governance tokens. However, the value of future cash flows can evaporate in death spiral situations. Alternatively, a portion of past cash flows can be diverted to serve as a buffer to cover shortfalls. There is in fact a spectrum between these options, in which securitized cash flows can be sold at arbitrary times to maintain an adequate buffer. This is a largely unexplored spectrum in stablecoins. For instance, Maker has a ‘system surplus’ account that served as a buffer during Black Thursday. This was not in fact intended as a stability buffer and is typically used to accrue fees until they reach a size for returning to ‘equity’ holders. Instead, Maker’s intended buffer is an auction of MKR, arguably to be conducted at the worst possible time, to cover shortfalls.</p>
+<h1 id="a-new-design-class-gyroscopic-stablecoins">A New Design Class: Gyroscopic Stablecoins</h1>
+<p>Our proposed class of gyroscopic designs combines three economic components. We illustrate this class of designs with concrete examples in the following section.</p>
+<p>The <em>Gyroscopic Buffer</em> contains the assets backing the system. Creation of stablecoins adds to the buffer and redemption of stablecoins subtracts from the buffer. The buffer also tends to grow over time by deploying assets in a risk-segregated portfolio of vaults. The portfolio aims to diversify tail risks but does not need to be stable in value itself. It is rebalanced/changed at discrete times to mitigate contagion from the failure of individual vaults. However, a vault itself may contain many assets and may be rebalanced continually (e.g., an AMM pool). Via this portfolio, the buffer deploys system assets to earn a yield while controlling for complex DeFi contagion risks.</p>
+<p>The <em>Primary Market AMM</em> creates a primary market for minting and redeeming stablecoins balanced against the buffer. It is intended to price the last-resort liquidity for the stablecoin and effectively bound the stablecoin’s prices on the secondary markets, where normal activity is intended to occur. The AMM is custom-designed to balance stablecoin pricing bounds vs. buffer health. The redemption AMM aims to provide variable support for the stablecoin price peg during volatile times while incentivizing redeemers to prefer redeeming during healthy times and to thwart economic attacks against the peg. For instance, the redemption rate may change with buffer health and with the size of recent outflows to protect the buffer from exhaustion. In this way, the system can still function even if buffer value per stablecoin is less than $1. The stablecoin minting AMM incorporates a ‘value of systemic insurance’ from the health of the buffer and the effects of minting on buffer dilution per stablecoin in addition to the target $1 value.</p>
+<p>A <em>buffer securitization</em> component allows future yield on buffer assets at times to be securitized and sold to boost current buffer size.</p>
+<h2 id="risk-segregation-in-the-buffer">Risk Segregation in the Buffer</h2>
+<p>Portfolio risk segregation incorporates recent work on stablecoin risks <span class="citation" data-cites="klages2020stablecoins klages2019stability klages2020while">(Klages-Mundt et al. 2020; Klages-Mundt and Minca 2019, 2020)</span>, Protocols for Loanable Funds (PLFs) <span class="citation" data-cites="gudgeon2020decentralized gudgeon2020defi kao2020">(Gudgeon, Perez, et al. 2020; Gudgeon, Werner, et al. 2020; Kao et al. 2020)</span>, and Constant Function Market Makers (CFMMs) <span class="citation" data-cites="angeris2020improved angeris2020analysis evans2020liquidity">(Angeris and Chitra 2020; Angeris et al. 2020; Evans 2020)</span>. The goal is design vaults in ways such that risks are segregated into discrete vaults, which may fail but will not contaminate the remaining vaults. As such, the gyroscopic buffer will be robust to individual vault risks.</p>
+<p>Vault strategies introduce risks stemming from the underlying assets (e.g., stablecoin risks) and the form of deployment. For underlying asset risks, we draw on our work in <span class="citation" data-cites="klages2020stablecoins">(Klages-Mundt et al. 2020)</span>. Among custodial stablecoins, we segregate assets based on common counterparty, bank run, and jurisdictional risks. Among non-custodial stablecoins, we segregate assets based on the primary values (<span class="math inline">∼</span> collateral type) backing the stablecoins, different oracle and governance systems, and composability and smart contract bug risks.</p>
+<p>We then consider the following types of asset deployments and risks therin.</p>
+<ul>
+<li><p><em>CFMM pools</em>. CFMM pools can be thought of as continually rebalanced portfolios that provide an exchange service between constituent assets. These pools face a drag from volatility as the rebalance mechanism creates arbitrage opportunities when prices change. These pools are well-designed if the trading service is more valuable (through fees) than the drag, or if assets are mean-reverting. A rebalancing portfolio can be structured to have a damping effect on transient price declines if the assets have low correlation (e.g., if one of the assets is a stablecoin). This creates a reduced volatility region distinct in mechanism from leverage-based stablecoin designs. More customized CFMM designs can also replicate various options strategies, which can be deployed to further separate risks from one pool to another.</p></li>
+<li><p><em>PLF pools</em>. These can be interpreted as AMMs for interest rates and introduce distinct liquidity and collateral risks to other pools.</p></li>
+<li><p><em>Rebate/reward pools</em>. Many DeFi protocols incentivize liquidity provision in the form of protocol ownership (aka yield farming). Rebate pools will automate the collection and compounding of these rewards. This may blend with the previous types of pools. An important consideration is to segregate risks into discrete vaults so that the system is robust (vs. simply targeting the highest current yield).</p></li>
+</ul>
+<h2 id="primary-vs.-secondary-stablecoin-markets">Primary vs. Secondary Stablecoin Markets</h2>
+<p>The stablecoin’s primary market mint/redeem AMM is intended to perform the role of market maker of last resort and comes with a dynamic mint/redeem fee. This can be thought of akin to ETF arbitrage: if the secondary market deviates too much from net asset value, then it will be profitable to route orders through the primary market (by creating/redeeming stablecoins). Normally, this limited to ETF ’authorized participants’ who perform creation/redemption arbitrage. In our system, anyone can interact with the primary market entirely on-chain, and orders can automatically be routed through it; in this case, the mint/redeem fee captures the ETF arbitrage value.</p>
+<p>In normal settings, after initial system growth, we expect that secondary markets for the stablecoin will provide more efficient trades (and will avoid mint/redeem fees). During extraordinary times, like cryptocurrency market crises, secondary markets may be overwhelmed. This could occur, for instance, if there is a large flight to safety, and so excess demand for robust stablecoins. These are particularly the settings in which the value of insurance from the buffer system is most important. The minting fee is designed to account for this value of insurance and to price in the dilutionary effect of minting on buffer value per stablecoin.</p>
+<h2 id="governance">Governance</h2>
+<p>The system will need some form of governance over time to handle the following tasks.</p>
+<ul>
+<li><p>Rebalance/change buffer portfolio over time</p></li>
+<li><p>Make securitization decisions (may be automated to some degree)</p></li>
+<li><p>Select price feeds for the system to use</p></li>
+<li><p>Potentially change the primary market AMM parameters over time</p></li>
+</ul>
+<p>The question of governance design builds on research questions discussed in <span class="citation" data-cites="klages2020stablecoins">(Klages-Mundt et al. 2020)</span>. Note that the design can contain relatively limited governance surfaces and is a simpler problem in this setup as opposed to other stablecoin designs as there is only one type of interested party: stablecoin holders. This contrasts with other non-custodial stablecoin designs that require balancing competing incentives of stablecoin holders, leveraged borrowers, and governance token holders. Note also that the price feed surface area can be limited at the expense of other functionality. For instance, the surface area in example Design A in the following section has very limited price feed surface area.</p>
+<p>At this point, we focus on the economic design of gyroscopic stablecoins and leave governance design to further development.</p>
+<h1 id="examples-of-gyroscopic-designs">Examples of Gyroscopic Designs</h1>
+<p>To illustrate, we consider three concrete examples of gyroscopic stablecoins, which represent different parameter choices within this class of designs. To aid in illustration, let’s define the primary market AMM via the function <span class="math display"><em>f</em>(<em>x</em>, <em>y</em>, <em>z</em>) = AMM redemption offer</span> where <span class="math inline"><em>x</em>=</span> the number of stablecoins to redeem, <span class="math inline"><em>y</em>=</span> the buffer dollar value per stablecoin issued, <span class="math inline"><em>z</em>=</span> other system state variables, and the output of <span class="math inline"><em>f</em></span> is in dollar value of buffer assets.</p>
+<h2 id="design-a-sim-etf-of-stablecoins-with-a-rainy-day-fund">Design A <span class="math inline">∼</span> ETF of stablecoins with a rainy day fund</h2>
+<p>Design A can be interpreted like an ETF of stablecoins with an additional rainy day fund that grows over time. The rainy day fund provides insurance against the failure of individual stablecoins in the basket. In this case, the buffer can be divided into the ETF basket backing the stablecoins and the rainy day fund, both of which may be deployed in risk-segregated ways. One stablecoin is redeemable through the primary market AMM for a share of the underlying basket and vice versa after accounting for the insurance value of the rainy day fund.</p>
+<p>This is the design originally described in <span class="citation" data-cites="klagesmundt_grant2018 klagesmundt-ic3">(Klages-Mundt 2018; Klages-Mundt, Gudgeon, and Perez 2020)</span>.</p>
+<p>We also consider two further twists for the rainy day fund.</p>
+<ul>
+<li><p>Rainy day fund cash flows can be securitized and may be sold at times to recapitalize the buffer. This is like harnessing future cash flows to fill the buffer as opposed to accruing past cash flows.</p></li>
+<li><p>Rainy day fund ‘insurance’ can be separable from the stablecoin accessible via subscription (e.g., compare to <a href="https://www.bloomberg.com/opinion/articles/2019-12-06/green-bonds-without-the-bonds">Danish green bonds</a>)</p></li>
+</ul>
+<p>Compared to the generalized design, Design A restricts the type of underlying assets to mainly other stablecoins and takes the primary market AMM redemption function to be <span class="math display"><em>f</em>(<em>x</em>, <em>y</em>) = <em>x</em>min (1, <em>y</em>) (minus a possible fee).</span></p>
+<h2 id="design-b-sim-money-market-fund-with-pegged-redemption">Design B <span class="math inline">∼</span> money market fund with pegged redemption</h2>
+<p>In Design B, the buffer is composed of a combination of stable and volatile assets and mimics a money market fund that aims for a pegged redemption rate of $1. For instance, some portfolio vaults may deploy assets in mixed stable-volatile pair AMM pools. Each stablecoin is redeemable for $1 worth of buffer assets, subject to a possible devaluation/peg break, and vice versa accounting for the insurance value of healthy buffer. The buffer grows as yield is earned in the portfolio. The excess value of the buffer can be interpreted akin the rainy day fund in Design A, which serves as a continously smooth the buffer value per stablecoin to keep the peg at $1. If the excess falls below 0, then the stablecoin is devalued (like a money market mutual fund ‘breaking the buck,’ see e.g., <span class="citation" data-cites="parlatore2016">(Parlatore 2016)</span>). As in Design A, similar twists are available on the rainy day fund formulation.</p>
+<p>Compared to the generalized design, this example takes the primary market AMM function to be <span class="math inline"><em>f</em>(<em>x</em>, <em>y</em>) = <em>x</em>min (1, <em>y</em>) (minus a possible fee).</span></p>
+<h2 id="design-c-sim-currency-peg-model">Design C <span class="math inline">∼</span> currency peg model</h2>
+<p>Design C resembles the previous designs in effect but with a more flexible structure. The buffer contains all assets, deployed in various ways, and is interpreted as a reserve fund. A stablecoin can be created by depositing $1 plus an insurance fee in the buffer assets. A stablecoin can be redeemed through the primary market AMM that scales the redemption rate based on net outflows and buffer value per stablecoin. Under normal conditions (e.g., low net outflow), redemption value is $1 (minus possible fee). Under crisis events, redemption value may be flexible below $1. For instance, it could scale as a function of net outflows down to the buffer value per stablecoin, if less than $1. This has the effect of preserving buffer health and incentivizing redeemers to wait to redeem at better prices later.</p>
+<p>Under this design, the buffer value per stablecoin may be <span class="math inline"> &lt; $1</span> (which could be interpreted as under-collateralized) at times without breaking the peg in a similar way to how currency peg models work (see e.g., <span class="citation" data-cites="guimaraes2007risk">(Guimaraes and Morris 2007)</span>). In effect, this works by setting up game theoretic incentives among stablecoin holders to coordinate on $1 value for the stablecoin supposing the buffer is of a sufficient size and the stablecoin itself is economically usable. Note that the design still aims to be fully (or over-) collateralized long-term.</p>
+<p>A particular concern for the primary market AMM design is: when redemptions are allwoed at values greater than the buffer value per stablecoin, then the AMM needs to be robust to economic attacks against the peg by depleting the buffer. With flash loans/minting, this would be particularly dangerous, and so redemptions would probably be best subject to a reasonable delay. An AMM design that adjusts the short-term exchange rate dynamically based on changes in outflows (and other system state) can also help to disrupt economic attacks while continuing to target a long-term stable exchange rate.</p>
+<p>To illustrate, a simplistic<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> formulation of the AMM redemption function could look like <span class="math display"><em>f</em>(<em>x</em>, <em>y</em>, <em>z</em>) = <em>x</em>max (decay function(<em>x</em>, <em>z</em>), min (1, <em>y</em>)),</span> where the decay function decays from 1 and depends on system state <span class="math inline"><em>z</em></span> such as historical outflows. [some better but more complex redemption function examples will be provided in an accompanying Jupyter notebook]</p>
+<p>Since this design can still function under-collateralized, it also allows a more flexible launch. For instance, short-term growth can be fueled while accruing an under-collateralized buffer, and structure can gradually shift to the long-term dynamics envisioned.</p>
+<h2 id="examples-of-risk-segregated-portfolio-structure">Examples of Risk-Segregated Portfolio Structure</h2>
+<p>The following is a simple candidate portfolio structure for segregating tail risks, though not necessarily the best. It is constructed by stratifying the qualitative characterization of risks from <span class="citation" data-cites="klages2020stablecoins">(Klages-Mundt et al. 2020)</span>. The yield on rebate pools can be captured separately and rebalanced periodically with the larger portfolio.</p>
+<div id="table:example_segregation">
+<table class="table">
+<caption>For illustration purposes only, each protocol may have significant risks, this just illustrates how these risks might be segregated.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Category</strong></th>
+<th style="text-align: center;"><strong>Vault</strong></th>
+<th style="text-align: left;"><strong>Assets</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;" rowspan="4">Custodial</td>
+<td style="text-align: center;">Tether</td>
+<td style="text-align: left;">Balancer pool: USDT / XAUt</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">US-based</td>
+<td style="text-align: left;">Balancer pool: TUSD / TGBP</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">US-based Paxos</td>
+<td style="text-align: left;">Balancer pool: PAX / PAXG</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Ex-US (kind of)</td>
+<td style="text-align: left;">Balancer pool: USDC / EURS</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;" rowspan="6">Non-custodial</td>
+<td style="text-align: center;">Maker-Compound</td>
+<td style="text-align: left;">cDai recycling vault</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Maker</td>
+<td style="text-align: left;">Balancer pool: Dai / ETH</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Synthetix</td>
+<td style="text-align: left;">Balancer pool: sUSD / ETH</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Synthetix-Aave</td>
+<td style="text-align: left;">aSUSD</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">UMA</td>
+<td style="text-align: left;">Balancer pool: fixed term uUSD rollover</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Empty Set Dollar</td>
+<td style="text-align: left;">Balancer pool: ESD / ETH</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id="implementation-specs">Implementation Specs</h1>
+<figure>
+<img src="figures/RDF_schematic.png" id="fig:rdf_schematic" style="width:80%" />
+</figure>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-angeris2020improved" class="csl-entry" role="doc-biblioentry">
+Angeris, Guillermo, and Tarun Chitra. 2020. <span>“Improved Price Oracles: Constant Function Market Makers.”</span> In <em>Proceedings of the 2nd ACM Conference on Advances in Financial Technologies</em>, 80–91.
+</div>
+<div id="ref-angeris2020analysis" class="csl-entry" role="doc-biblioentry">
+Angeris, Guillermo, Hsien-Tang Kao, Rei Chiang, Charlie Noyes, and Tarun Chitra. 2020. <span>“An Analysis of Uniswap Markets.”</span> <em>Crypto Economic Systems 2020</em>.
+</div>
+<div id="ref-evans2020liquidity" class="csl-entry" role="doc-biblioentry">
+Evans, Alex. 2020. <span>“Liquidity Provider Returns in Geometric Mean Markets.”</span> <em>arXiv Preprint arXiv:2006.08806</em>.
+</div>
+<div id="ref-gudgeon2020decentralized" class="csl-entry" role="doc-biblioentry">
+Gudgeon, Lewis, Daniel Perez, Dominik Harz, Benjamin Livshits, and Arthur Gervais. 2020. <span>“The Decentralized Financial Crisis.”</span> In <em>2020 Crypto Valley Conference on Blockchain Technology (CVCBT)</em>, 1–15. IEEE.
+</div>
+<div id="ref-gudgeon2020defi" class="csl-entry" role="doc-biblioentry">
+Gudgeon, Lewis, Sam Werner, Daniel Perez, and William J Knottenbelt. 2020. <span>“DeFi Protocols for Loanable Funds: Interest Rates, Liquidity and Market Efficiency.”</span> In <em>Proceedings of the 2nd ACM Conference on Advances in Financial Technologies</em>, 92–112.
+</div>
+<div id="ref-guimaraes2007risk" class="csl-entry" role="doc-biblioentry">
+Guimaraes, Bernardo, and Stephen Morris. 2007. <span>“Risk and Wealth in a Model of Self-Fulfilling Currency Attacks.”</span> <em>Journal of Monetary Economics</em> 54 (8): 2205–30.
+</div>
+<div id="ref-kao2020" class="csl-entry" role="doc-biblioentry">
+Kao, Hsien-Tang, Tarun Chitra, Rei Chiang, and John Morrow. 2020. <span>“An Analysis of the Market Risk to Participants in the Compound Protocol.”</span>
+</div>
+<div id="ref-klagesmundt_grant2018" class="csl-entry" role="doc-biblioentry">
+Klages-Mundt, Ariah. 2018. <span>“Proposal: A Framework for Designing Better Stablecoins.”</span> <a href="https://github.com/aklamun/Stablecoin_grant_proposal_122018">https://github.com/aklamun/Stablecoin_grant_proposal_122018</a>.
+</div>
+<div id="ref-klagesmundt-ic3" class="csl-entry" role="doc-biblioentry">
+Klages-Mundt, Ariah, Lewis Gudgeon, and Daniel Perez. 2020. <span>“Rainy Day Fund Stablecoin.”</span> <em>Ic3 Blockchain Camp</em>. <a href="https://www.initc3.org/events/2020-07-26-IC3-Blockchain-Camp.html">https://www.initc3.org/events/2020-07-26-IC3-Blockchain-Camp.html</a>.
+</div>
+<div id="ref-klages2020stablecoins" class="csl-entry" role="doc-biblioentry">
+Klages-Mundt, Ariah, Dominik Harz, Lewis Gudgeon, Jun-You Liu, and Andreea Minca. 2020. <span>“Stablecoins 2.0: Economic Foundations and Risk-Based Models.”</span> In <em>Proceedings of the 2nd ACM Conference on Advances in Financial Technologies</em>, 59–79.
+</div>
+<div id="ref-klages2019stability" class="csl-entry" role="doc-biblioentry">
+Klages-Mundt, Ariah, and Andreea Minca. 2019. <span>“(In) Stability for the Blockchain: Deleveraging Spirals and Stablecoin Attacks.”</span> <em>arXiv Preprint arXiv:1906.02152</em>.
+</div>
+<div id="ref-klages2020while" class="csl-entry" role="doc-biblioentry">
+———. 2020. <span>“While Stability Lasts: A Stochastic Model of Stablecoins.”</span> <em>arXiv Preprint arXiv:2004.01304</em>.
+</div>
+<div id="ref-parlatore2016" class="csl-entry" role="doc-biblioentry">
+Parlatore, Cecilia. 2016. <span>“Fragility in Money Market Funds: Sponsor Support and Regulation.”</span> <em>Journal of Financial Economics</em> 121 (3): 595–623.
+</div>
+</div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Note that constant product markets aren’t the most efficient implmeentation of a constant mix portfolio. They suffer from ‘divergence loss’ (also commonly called ‘impermanent loss’) from effectively rebalancing assets as non-optimal prices as underlying assets diverge in price. They are profitable insofar as fees from exchange volume make up for this.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>To continue the Titanic analogy, this is like constructing the water-tight doors all the way to the ceiling.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>Provided solely to illustrate the ideas but which is missing some important properties that we won’t go into here.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+
+
+  </body>
+</html>
