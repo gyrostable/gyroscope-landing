@@ -12,9 +12,7 @@ from bs4 import BeautifulSoup
 ROOT_DIR = path.abspath(path.dirname(path.dirname(__file__)))
 OUTPUT_FILE = "litepaper.html"
 
-CUSTOM_IMAGE_MAPPINGS = {
-    "figures/primary_market_AMM_cum_redeem.pdf": "figures/primary_market_AMM_redeem.gif",
-}
+REMOVED_IMAGES = []
 
 
 def check_pandoc():
@@ -65,7 +63,9 @@ def compile_latex_to_html(base_dir: str) -> str:
         path.join(ROOT_DIR, "misc", "pandoc-template.html5"),
         "--csl",
         path.join(ROOT_DIR, "misc", "ieee.csl"),
-        "main.tex"
+        "-i",
+        path.join(ROOT_DIR, "misc", "pandoc-override.tex"),
+        "main.tex",
     ]
     try:
         return run(args, capture_output=True, check=True, cwd=base_dir).stdout.decode("utf-8")
@@ -79,16 +79,17 @@ def postprocess_html(raw_html: str) -> str:
     for table in soup.find_all("table"):
         table["class"] = "table"
 
+    for img in soup.find_all("img"):
+        del img["style"]
+
     for embed in soup.find_all("embed"):
-        if embed["src"] in CUSTOM_IMAGE_MAPPINGS:
-            embed["src"] = CUSTOM_IMAGE_MAPPINGS[embed["src"]]
-        else:
-            embed["src"] = embed["src"].replace(".pdf", ".png")
+        embed["src"] = embed["src"].replace(".pdf", ".png")
         embed.name = "img"
         del embed["style"]
 
     for img in soup.find_all("img"):
-        del img["style"]
+        if img["src"] in REMOVED_IMAGES:
+            img.parent.decompose()
 
     for div in soup.find_all("div", {"class": "csl-entry"}):
         div["class"] += ["row"]

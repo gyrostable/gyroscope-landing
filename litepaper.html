@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=yes">
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
     <meta
       name="author"
-      content="Ariah Klages-Mundt, Lewis Gudgeon, Daniel Perez">
-    <meta name="keywords" content="stablecoin, gyro, gyroscope">
+      content="Ariah Klages-Mundt, Lewis Gudgeon, Daniel Perez"
+    />
+    <meta name="keywords" content="stablecoin, gyro, gyroscope" />
     <title>Gyroscopic Stablecoins: Litepaper</title>
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
     <![endif]-->
 
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
     <link
       href="vendor/simple-line-icons/css/simple-line-icons.css"
       rel="stylesheet"
-      type="text/css">
+      type="text/css"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
       rel="stylesheet"
-      type="text/css">
+      type="text/css"
+    />
 
-    <link href="css/landing-page.css" rel="stylesheet">
-    <link href="css/litepaper.css" rel="stylesheet">
+    <link href="css/landing-page.css" rel="stylesheet" />
+    <link href="css/litepaper.css" rel="stylesheet" />
     <script
       type="text/javascript"
       async
@@ -41,15 +45,14 @@
       </div>
     </nav>
 
-      <header class="title" id="title-block-header">
-        <h1 class="title">Gyroscopic Stablecoins: Litepaper</h1>
-        <p class="author">
-          Ariah Klages-Mundt, Lewis Gudgeon and Daniel Perez
-        </p>
-        <p class="date">December 2020</p>
-      </header>
+    <header class="title" id="title-block-header">
+      <h1 class="title">Gyroscopic Stablecoins: Litepaper</h1>
+      <p class="author">Ariah Klages-Mundt, Lewis Gudgeon and Daniel Perez</p>
+      <p class="date">December 2020</p>
+    </header>
 
     <div class="container">
+      <p><a href="litepaper.pdf">Download as PDF</a></p>
       <h1>
        Abstract
       </h1>
@@ -124,7 +127,7 @@
       <p>
        Gyroscopic stablecoins control for this issue in two main ways.
       </p>
-      <ol>
+      <ol class="incremental">
        <li>
         <p>
          by segregating buffer assets into pools in such a way that the possibility of contagion between the pools is minimized
@@ -207,7 +210,7 @@
       <p>
        We then consider the following types of asset deployments and risks therein.
       </p>
-      <ul>
+      <ul class="incremental">
        <li>
         <p>
          <em>
@@ -248,7 +251,7 @@
       <p>
        The system will need some form of governance over time to handle the following tasks.
       </p>
-      <ul>
+      <ul class="incremental">
        <li>
         <p>
          Rebalance/change buffer portfolio over time
@@ -333,6 +336,9 @@
        </span>
        , e.g., using log utility to formulate a price of insurance]
       </p>
+      <p>
+       <img alt="image" src="figures/primary_market_AMM_mint.gif"/>
+      </p>
       <h2 id="design-a-sim-etf-of-stablecoins-with-a-rainy-day-fund">
        Design A
        <span class="math inline">
@@ -353,7 +359,7 @@
       <p>
        We also consider two further twists for the rainy day fund.
       </p>
-      <ul>
+      <ul class="incremental">
        <li>
         <p>
          Rainy day fund cash flows can be securitized and may be sold at times to recapitalize the buffer. This is like harnessing future cash flows to fill the buffer as opposed to accruing past cash flows.
@@ -491,8 +497,11 @@
        </span>
        such as historical outflows. [some better but more complex redemption function examples will be provided in an accompanying Jupyter notebook]
       </p>
+      <p>
+       <img alt="image" src="figures/primary_market_AMM_redeem.gif"/>
+      </p>
       <figure>
-       <img id="fig:rdf_schematic" src="figures/primary_market_AMM_redeem.gif"/>
+       <img id="fig:primary_AMM_credeem" src="figures/primary_market_AMM_cum_redeem.png"/>
        <figcaption aria-hidden="true">
         Average cumulative redeem price through primary market AMM starting at 0 local outflow
        </figcaption>
@@ -500,6 +509,20 @@
       <p>
        Since this design can still function under-collateralized, it also allows a more flexible launch. For instance, short-term growth can be fueled while accruing an under-collateralized buffer, and structure can gradually shift to the long-term dynamics envisioned.
       </p>
+      <figure>
+       <img id="fig:secondary_AMM_prices" src="figures/secondary_market_AMM_prices.png"/>
+       <figcaption aria-hidden="true">
+        For NAV
+        <span class="math inline">
+         ≥ 1
+        </span>
+        . Similar for NAV
+        <span class="math inline">
+         &lt; 1
+        </span>
+        .
+       </figcaption>
+      </figure>
       <h2 id="examples-of-risk-segregated-portfolio-structure">
        Examples of Risk-Segregated Portfolio Structure
       </h2>
