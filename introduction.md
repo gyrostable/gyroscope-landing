@@ -35,7 +35,11 @@ Second, on-chain speculative attacks are in a different league than TradFi specu
 
 This is what we explore and propose new solutions for in the Gyroscope paper.  For the Portfolio Problem, we develop methods for stratifying complex DeFi portfolio risks, similar to designing watertight compartments in a ship to ensure a breach in one compartment does not make the whole thing sink. For the Attack Problem, we  develop new AMM designs that shift incentives toward long-term peg stability.
 
-(Titanic analogy) how to prevent cascading failure from DeFi risks.
+<figure class="image titanic">
+  <img src="figures/titanic.png" alt="Titanic analogy">
+  <figcaption>(Titanic analogy) how to prevent cascading failure from DeFi risks.</figcaption>
+</figure>
+
 
 In the gyroscopic design, the reserve is community-owned and supports the stablecoin through transparent on-chain rules, including putting proceeds from supply expansion toward the common good (e.g., toward maintaining stability vs. solely rewarding early adopters). The resulting game can be thought of as a game of communal insurance, which we suggest can be stable over much more flexible settings than existing non-custodial stability mechanisms. This flexibility also enables exciting future directions for this technology--e.g., the ability for arbitrary targets, including on-chain crypto-economy metrics vs. pegged USD exchange rate, and the ability for on-chain economic policy, including universal basic income ‘funded’ by a growing ecosystem through partially collateralized supply increases.
 
