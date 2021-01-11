@@ -1,5 +1,4 @@
 import argparse
-import datetime as dt
 import os
 import shutil
 from glob import glob
@@ -10,7 +9,7 @@ from typing import cast
 from bs4 import BeautifulSoup
 
 ROOT_DIR = path.abspath(path.dirname(path.dirname(__file__)))
-OUTPUT_FILE = "litepaper.html"
+OUTPUT_FILE = "_includes/litepaper.html"
 
 REMOVED_IMAGES = []
 
@@ -99,17 +98,6 @@ def postprocess_html(raw_html: str) -> str:
     return cast(str, soup.prettify()).replace("\n", "\n      ").strip()
 
 
-def generate_litepaper_html(content_html: str) -> str:
-    with open(path.join(ROOT_DIR, "litepaper-template.html")) as f:
-        template = f.read()
-    current_date = dt.date.today()
-    if current_date.year == 2020 and current_date.month == 12:
-        last_update = ""
-    else:
-        last_update = f"<br><small> (updated {current_date.strftime('%B %Y')})</small>"
-    return template.format(content=content_html, last_update=last_update)
-
-
 def main():
     parser = argparse.ArgumentParser(prog="generate-litepaper")
     parser.add_argument("dir", help="Path to litepaper base directory")
@@ -121,9 +109,8 @@ def main():
     copy_images(args.dir)
     raw_html = compile_latex_to_html(args.dir)
     processed_html = postprocess_html(raw_html)
-    full_html = generate_litepaper_html(processed_html)
     with open(OUTPUT_FILE, "w") as f:
-        f.write(full_html)
+        f.write(processed_html)
 
 
 if __name__ == "__main__":
