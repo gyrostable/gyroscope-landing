@@ -11,3 +11,12 @@ figure {
 img {
   width: 80%;
 }
+
+.logo {
+  margin: auto;
+  width: 200px;
+}
+
+.logo img {
+  width: 100%;
+}
