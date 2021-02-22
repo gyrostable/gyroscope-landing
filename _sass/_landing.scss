@@ -1,7 +1,12 @@
 header.masthead {
   position: relative;
   /* background-color: #34287e; */
-  background: linear-gradient(to bottom right, black, #34287e);
+  background: linear-gradient(
+    167deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(3, 57, 45, 1) 65%,
+    rgba(246, 183, 120, 1) 100%
+  );
   background-size: cover;
   padding-top: 2rem;
   padding-bottom: 2rem;
