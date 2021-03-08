@@ -1,0 +1,44 @@
+header.masthead {
+  position: relative;
+  /* background-color: #34287e; */
+  background: linear-gradient(
+    167deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(3, 57, 45, 1) 65%,
+    rgba(246, 183, 120, 1) 100%
+  );
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .logo {
+    margin-bottom: 3em;
+    max-width: 100%;
+  }
+}
+
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
