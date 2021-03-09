@@ -1,8 +1,11 @@
+- name: Learn
+  link: /blog/
+  highlight: false
 - name: Blog
   link: https://medium.com/gyroscope-protocol
   new_window: false
   highlight: false
-- name: About
+- name: Team
   link: /about/
   new_window: false
   highlight: false
@@ -10,8 +13,8 @@
   link: https://docs.gyro.finance
   new_window: false
   highlight: false
-- name: Whitepaper
-  link: /pdfs/Gyroscope_Lite_Paper.pdf
+- name: Vote
+  link: /vote/
   new_window: false
   highlight: false
 - name: App

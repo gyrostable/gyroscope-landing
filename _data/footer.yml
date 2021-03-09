@@ -1,7 +1,11 @@
 - links:
+  - name: Whitepaper
+    link: /pdfs/Gyroscope_Lite_Paper.pdf
+    new_window: false
+    highlight: false
   - name: Blog
     link: https://medium.com/gyroscope-protocol
-  - name: About
+  - name: Team
     link: /about/
   # - name: Contact
   #   link: /contact/
