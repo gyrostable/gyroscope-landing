@@ -3,8 +3,8 @@
     link: https://medium.com/gyroscope-protocol
   - name: About
     link: /about/
-  - name: Contact
-    link: /contact/
+  # - name: Contact
+  #   link: /contact/
 - links:
   - name: App
     link: https://test.gyro.finance
@@ -17,12 +17,12 @@
     link: https://twitter.com/gyrostable/
     social_icon: Twitter
     new_window: true
-  - name: Telegram
-    link: /
-    social_icon: Telegram
-    new_window: true
+  # - name: Telegram
+  #   link: /
+  #   social_icon: Telegram
+  #   new_window: true
   - name: Discord
-    link: /
+    link: https://discord.gg/AuMfEG7B
     social_icon: Discord
     new_window: true
 
