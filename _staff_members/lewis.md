@@ -1,7 +1,6 @@
 ---
 name: Lewis Gudgeon
 position: COO
-image_path: /images/lewis.jpg
+image_path: /images/lewis.png
 twitter: ljfgudgeon
-blurb: Lewis is xyz
 ---

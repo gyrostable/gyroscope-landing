@@ -1,7 +1,6 @@
 ---
 name: Daniel Perez
 position: CTO
-image_path: /images/daniel.jpg
+image_path: /images/daniel.png
 twitter: danhper
-blurb: Daniel likes long walks on the beach and buffet breakfast.
 ---
