@@ -69,8 +69,13 @@
 
 }
 
+
+.centered-container {
+  margin: 220px auto 0 auto;
+}
+
 @media #{$mid-point} {
-  #mc_embed_signup_scroll{
+  .centered-container {
     max-width: 500px;
   }
 }
