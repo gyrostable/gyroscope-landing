@@ -1,9 +1,10 @@
 - name: Learn
-  link: /
+  link: https://docs.gyro.finance/learn/gyroscope-stablecoin
+  new_window: true
   highlight: false
 - name: Blog
   link: https://medium.com/gyroscope-protocol
-  new_window: false
+  new_window: true
   highlight: false
 - name: Team
   link: /about/
@@ -11,7 +12,7 @@
   highlight: false
 - name: Docs
   link: https://docs.gyro.finance
-  new_window: false
+  new_window: true
   highlight: false
 - name: Vote
   link: /vote/
