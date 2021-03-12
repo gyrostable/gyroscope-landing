@@ -1,12 +1,24 @@
 - name: Learn
-  link: https://docs.gyro.finance/learn/gyroscope-stablecoin
   new_window: true
   highlight: false
   sublinks:
+    - name: What is a stablecoin?
+      link: https://docs.gyro.finance/learn/gyroscope-stablecoin
+    - name: Gyroscopic stability
+      link: https://docs.gyro.finance/learn/gyroscope-stability
     - name: Governance
-      link: https://docs.gyro.finance
-    - name: More
-      link: https://medium.com/gyroscope-protocol
+      link: https://docs.gyro.finance/learn/gyroscope-governance
+- name: Community
+  new_window: true
+  highlight: false
+  sublinks:
+    - name: Twitter
+      link: https://twitter.com/gyrostable/
+      social_icon: Twitter
+    - name: Discord
+      link: https://discord.gg/AuMfEG7B
+      social_icon: Discord
+      new_window: true
 - name: Blog
   link: https://medium.com/gyroscope-protocol
   new_window: true

@@ -23,12 +23,13 @@
           {% if link.sublinks %}
 
           <li class="nav-item dropdown">
+            
             <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }} </a>
           
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
             {% for sublink in link.sublinks %}
-            <a class="dropdown-item" href="{% include relative-src.html src=sublink.link %}">{{ sublink.name }}</a>
+            <a class="dropdown-item nav-item" href="{% include relative-src.html src=sublink.link %}">{{ sublink.name }}</a>
             {% endfor %}
 
           </div>
@@ -47,4 +48,6 @@
       </ul>
     </div>
   </nav>
+
+
 
