@@ -11,7 +11,7 @@
         {% for link in site.data.navigation %}
 
           {% assign class = "nav-link" %}
-          
+
           {% if link.highlight %}
             {% assign class = class | append: " highlight" %}
           {% endif %}
@@ -20,33 +20,31 @@
             {% assign class = class | append: " active" %}
           {% endif %}
 
-            <li class="nav-item">
-          <a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
-            </li>
+          {% if link.sublinks %}
+
+          <li class="nav-item dropdown">
+            <a id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }} </a>
+          
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for sublink in link.sublinks %}
+            <a class="dropdown-item" href="{% include relative-src.html src=sublink.link %}">{{ link.name }}</a>
+            {% endfor %}
+          </div>
+
+          </li>
+            
+          {% else %}
+
+          <li class="nav-item">
+            <a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }} </a>
+          </li>
+
+          {% endif %}
 
         {% endfor %}
-
-        <!-- <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li> -->
 
       </ul>
     </div>
   </nav>
+
+  <!-- href="{% include relative-src.html src=link.link %}" -->

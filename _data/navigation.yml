@@ -2,6 +2,11 @@
   link: https://docs.gyro.finance/learn/gyroscope-stablecoin
   new_window: true
   highlight: false
+  sublinks:
+    - name: Governance
+      link: https://docs.gyro.finance
+    - name: More
+      link: https://medium.com/gyroscope-protocol
 - name: Blog
   link: https://medium.com/gyroscope-protocol
   new_window: true
