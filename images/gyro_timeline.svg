@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="258.69165mm"
+   height="143.28427mm"
+   viewBox="0 0 258.69165 143.28427"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clip0">
+      <rect
+         x="192"
+         y="76"
+         width="1017"
+         height="576"
+         id="rect10" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(46.191061,-64.429294)">
+    <path
+       d="M -30.387134,88.844338 H 143.44438 L 157.9962,103.39642 V 117.9485 H -30.387134 Z"
+       fill="#e7e6e6"
+       fill-rule="evenodd"
+       id="path15"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 157.9962,117.9485 v 60.325 l -14.55209,14.55209 H 128.89203 V 117.9485 Z"
+       fill="#e7e6e6"
+       fill-rule="evenodd"
+       id="path17"
+       style="stroke-width:0.264583" />
+    <path
+       d="m -30.387134,178.2735 28.8395827,-28.83958 v 14.41979 H 128.89203 V 192.6933 H -1.5475513 v 14.41979 z"
+       fill="#e7e6e6"
+       fill-rule="evenodd"
+       id="path19"
+       style="stroke-width:0.264583" />
+    <path
+       d="M -30.387134,88.579755 H 143.31209 L 157.9962,103.26413 143.31209,117.9485 H -30.387134 l 14.684375,-14.68437 z"
+       fill="#7f7f7f"
+       fill-rule="evenodd"
+       id="path21"
+       style="stroke-width:0.264583" />
+    <path
+       d="m -24.830884,103.26413 c 0,-4.310592 3.553618,-7.805209 7.9375,-7.805209 4.383881,0 7.9374995,3.494617 7.9374995,7.805209 0,4.31059 -3.5536185,7.80521 -7.9374995,7.80521 -4.383882,0 -7.9375,-3.49462 -7.9375,-7.80521 z"
+       fill="#0d0d0d"
+       fill-rule="evenodd"
+       id="path23"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 18.296198,103.39642 c 0,-4.38388 3.494617,-7.937499 7.805209,-7.937499 4.310591,0 7.805208,3.553619 7.805208,7.937499 0,4.38388 -3.494617,7.9375 -7.805208,7.9375 -4.310592,0 -7.805209,-3.55362 -7.805209,-7.9375 z"
+       fill="#0d0d0d"
+       fill-rule="evenodd"
+       id="path25"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 61.158698,103.26413 c 0,-4.310592 3.553619,-7.805209 7.9375,-7.805209 4.383881,0 7.9375,3.494617 7.9375,7.805209 0,4.31059 -3.553619,7.80521 -7.9375,7.80521 -4.383881,0 -7.9375,-3.49462 -7.9375,-7.80521 z"
+       fill="#0d0d0d"
+       fill-rule="evenodd"
+       id="path27"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 104.28578,103.39642 c 0,-4.38388 3.55362,-7.937499 7.9375,-7.937499 4.38388,0 7.9375,3.553619 7.9375,7.937499 0,4.38388 -3.55362,7.9375 -7.9375,7.9375 -4.38388,0 -7.9375,-3.55362 -7.9375,-7.9375 z"
+       fill="#0d0d0d"
+       fill-rule="evenodd"
+       id="path29"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 95.554531,178.2735 c 0,-4.38388 3.494616,-7.9375 7.805209,-7.9375 4.31059,0 7.80521,3.55362 7.80521,7.9375 0,4.38388 -3.49462,7.9375 -7.80521,7.9375 -4.310593,0 -7.805209,-3.55362 -7.805209,-7.9375 z"
+       fill="#0d0d0d"
+       fill-rule="evenodd"
+       id="path31"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 47.135781,178.2735 c 0,-4.38388 3.494617,-7.9375 7.805209,-7.9375 4.310591,0 7.805208,3.55362 7.805208,7.9375 0,4.38388 -3.494617,7.9375 -7.805208,7.9375 -4.310592,0 -7.805209,-3.55362 -7.805209,-7.9375 z"
+       fill="#0d0d0d"
+       fill-rule="evenodd"
+       id="path33"
+       style="stroke-width:0.264583" />
+    <path
+       d="m -1.5475513,178.2735 c 0,-4.38388 3.5536187,-7.9375 7.9374999,-7.9375 4.3838814,0 7.9375004,3.55362 7.9375004,7.9375 0,4.38388 -3.553619,7.9375 -7.9375004,7.9375 -4.3838812,0 -7.9374999,-3.55362 -7.9374999,-7.9375 z"
+       fill="#0d0d0d"
+       fill-rule="evenodd"
+       id="path35"
+       style="stroke-width:0.264583" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="6.35px"
+       id="text97"
+       x="-46.724361"
+       y="68.736008"
+       style="stroke-width:0.264583">Ideation <tspan
+   font-size="6.35px"
+   x="-23.896112"
+   y="68.736008"
+   id="tspan37"
+   style="stroke-width:0.0700043">an</tspan><tspan
+   font-size="6.35px"
+   x="-17.501926"
+   y="68.736008"
+   id="tspan39"
+   style="stroke-width:0.0700043">d</tspan><tspan
+   font-size="6.35px"
+   x="-12.695503"
+   y="68.736008"
+   id="tspan41"
+   style="stroke-width:0.0700043">P</tspan><tspan
+   font-size="6.35px"
+   x="-9.4321327"
+   y="68.736008"
+   id="tspan43"
+   style="stroke-width:0.0700043">rototype</tspan><tspan
+   font-size="6.35px"
+   x="-34.863964"
+   y="76.40892"
+   id="tspan45"
+   style="stroke-width:0.0700043">IC3</tspan><tspan
+   font-size="6.35px"
+   x="-25.206673"
+   y="76.40892"
+   id="tspan47"
+   style="stroke-width:0.0700043">Bootcam</tspan>p<tspan
+   font-weight="700"
+   font-size="6.35px"
+   x="-27.586176"
+   y="84.081841"
+   id="tspan49"
+   style="stroke-width:0.0700043">Jul 2020</tspan><tspan
+   font-size="6.35px"
+   x="9.7467194"
+   y="124.56309"
+   id="tspan51"
+   style="stroke-width:0.0700043">Econ. Design</tspan><tspan
+   font-weight="700"
+   font-size="6.35px"
+   x="14.480906"
+   y="132.23601"
+   id="tspan53"
+   style="stroke-width:0.0700043">Fall 2020</tspan><tspan
+   font-size="6.35px"
+   x="35.823521"
+   y="77.731834"
+   id="tspan55"
+   style="stroke-width:0.0700043">First</tspan><tspan
+   font-size="6.35px"
+   x="48.255501"
+   y="77.731834"
+   id="tspan57"
+   style="stroke-width:0.0700043">Vault</tspan>on <tspan
+   font-size="6.35px"
+   x="71.097771"
+   y="77.731834"
+   id="tspan59"
+   style="stroke-width:0.0700043">T</tspan>estnet<tspan
+   font-weight="700"
+   font-size="6.35px"
+   x="51.141304"
+   y="85.404755"
+   id="tspan61"
+   style="stroke-width:0.0700043">Oct 2020</tspan><tspan
+   font-size="6.35px"
+   x="102.56069"
+   y="77.731834"
+   id="tspan63"
+   style="stroke-width:0.0700043">Balancer</tspan>Grant<tspan
+   font-weight="700"
+   font-size="6.35px"
+   x="109.31101"
+   y="85.404755"
+   id="tspan65"
+   style="stroke-width:0.0700043">Nov 2020</tspan><tspan
+   font-size="6.35px"
+   x="161.01537"
+   y="124.03392"
+   id="tspan67"
+   style="stroke-width:0.0700043">White</tspan>Paper Release<tspan
+   font-weight="700"
+   font-size="6.35px"
+   x="175.58702"
+   y="131.70683"
+   id="tspan69"
+   style="stroke-width:0.0700043">Dec 2020</tspan><tspan
+   font-size="6.35px"
+   x="161.17781"
+   y="164.77975"
+   id="tspan71"
+   style="stroke-width:0.0700043">Alpha</tspan>Testnet<tspan
+   font-weight="700"
+   font-size="6.35px"
+   x="166.88751"
+   y="172.45267"
+   id="tspan73"
+   style="stroke-width:0.0700043">Feb 2021</tspan><tspan
+   font-size="6.35px"
+   x="88.898415"
+   y="199.96933"
+   id="tspan75"
+   style="stroke-width:0.0700043">Gamified</tspan>Testnet<tspan
+   font-weight="700"
+   font-size="6.35px"
+   x="98.155121"
+   y="207.64226"
+   id="tspan77"
+   style="stroke-width:0.0700043">Mar 2021</tspan><tspan
+   font-size="6.35px"
+   x="32.923424"
+   y="153.40266"
+   id="tspan79"
+   style="stroke-width:0.0700043">Beta Test</tspan><tspan
+   font-size="6.35px"
+   x="56.254379"
+   y="153.40266"
+   id="tspan81"
+   style="stroke-width:0.0700043">-</tspan><tspan
+   font-size="6.35px"
+   x="58.194839"
+   y="153.40266"
+   id="tspan83"
+   style="stroke-width:0.0700043">in</tspan><tspan
+   font-size="6.35px"
+   x="63.001255"
+   y="153.40266"
+   id="tspan85"
+   style="stroke-width:0.0700043">-</tspan><tspan
+   font-size="6.35px"
+   x="64.941711"
+   y="153.40266"
+   id="tspan87"
+   style="stroke-width:0.0700043">Prod</tspan><tspan
+   font-weight="700"
+   font-size="6.35px"
+   x="43.060669"
+   y="161.07559"
+   id="tspan89"
+   style="stroke-width:0.0700043">Apr 2021</tspan><tspan
+   font-size="6.35px"
+   x="1.3200047"
+   y="199.96933"
+   id="tspan91"
+   style="stroke-width:0.0700043">Full</tspan><tspan
+   font-size="6.35px"
+   x="11.947521"
+   y="199.96933"
+   id="tspan93"
+   style="stroke-width:0.0700043">Mainnet</tspan><tspan
+   font-weight="700"
+   font-size="6.35px"
+   x="12.337255"
+   y="207.64226"
+   id="tspan95"
+   style="stroke-width:0.0700043">TBA</tspan></text>
+    <path
+       d="m 158.26078,103.39642 v 17.99167 l -14.55208,14.55208 h -14.55209 v -32.54375 z"
+       fill="#7f7f7f"
+       fill-rule="evenodd"
+       id="path99"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 158.26078,117.9485 v 60.19271 l -14.68437,14.68438 -14.68438,-14.68438 V 117.9485 l 14.68438,14.68438 z"
+       fill="#7f7f7f"
+       fill-rule="evenodd"
+       id="path101"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 135.7712,166.63184 c 0,-4.38388 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55362 7.9375,7.9375 0,4.38388 -3.55362,7.9375 -7.9375,7.9375 -4.38388,0 -7.9375,-3.55362 -7.9375,-7.9375 z"
+       fill="#0d0d0d"
+       fill-rule="evenodd"
+       id="path103"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 135.7712,125.886 c 0,-4.38388 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55362 7.9375,7.9375 0,4.38389 -3.55362,7.9375 -7.9375,7.9375 -4.38388,0 -7.9375,-3.55361 -7.9375,-7.9375 z"
+       fill="#0d0d0d"
+       fill-rule="evenodd"
+       id="path105"
+       style="stroke-width:0.264583" />
+  </g>
+</svg>
