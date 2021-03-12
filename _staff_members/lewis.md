@@ -1,6 +1,6 @@
 ---
 name: Lewis Gudgeon
-position: COO
+position: Economic design, Solidity dev
 image_path: /images/lewis.png
 twitter: ljfgudgeon
 ---

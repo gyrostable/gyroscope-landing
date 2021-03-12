@@ -23,6 +23,10 @@
   link: https://medium.com/gyroscope-protocol
   new_window: true
   highlight: false
+- name: Timeline
+  link: /timeline/
+  new_window: false
+  highlight: false
 - name: Team
   link: /about/
   new_window: false
