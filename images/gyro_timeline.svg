@@ -146,17 +146,17 @@
        id="path441"
        style="stroke-width:0.264583" />
     <path
-       d="m 172.99472,125.24345 v 60.43267 l -14.55209,14.57805 h -14.55208 v -75.01072 z"
+       d="m 172.99472,125.24345 v 60.37938 l -14.55209,14.56519 h -14.55208 v -74.94457 z"
        fill="#e7e6e6"
        fill-rule="evenodd"
        id="path443"
-       style="stroke-width:0.264819" />
+       style="stroke-width:0.264702" />
     <path
-       d="m -15.388608,185.83303 28.83958,-28.83958 v 14.41979 H 147.06555 v 28.83958 H 13.450972 v 14.41979 z"
+       d="M -15.388608,185.83303 15.50591,156.99345 v 14.41979 h 143.13516 v 28.83958 H 15.50591 v 14.41979 z"
        fill="#e7e6e6"
        fill-rule="evenodd"
        id="path445"
-       style="stroke-width:0.264583" />
+       style="stroke-width:0.273847" />
     <path
        d="M -15.388608,96.139276 H 158.31061 l 14.68411,14.684384 -14.68411,14.68437 H -15.388608 l 14.68437038,-14.68437 z"
        fill="#7f7f7f"
@@ -212,11 +212,11 @@
        id="path531"
        style="stroke-width:0.264583" />
     <path
-       d="m 173.2593,125.50803 v 60.19271 l -14.68437,14.68437 -14.68438,-14.68437 v -60.19271 l 14.68438,14.68438 z"
+       d="m 173.2593,125.50803 v 60.11751 l -14.68437,14.66602 -14.68438,-14.66602 v -60.11751 l 14.68438,14.66604 z"
        fill="#7f7f7f"
        fill-rule="evenodd"
        id="path533"
-       style="stroke-width:0.264583" />
+       style="stroke-width:0.264417" />
     <path
        d="m 150.76972,174.19137 c 0,-4.38389 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55361 7.9375,7.9375 0,4.38388 -3.55362,7.93749 -7.9375,7.93749 -4.38388,0 -7.9375,-3.55361 -7.9375,-7.93749 z"
        fill="#0d0d0d"
@@ -234,7 +234,7 @@
        id="text648"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="-2.3619952"
-       y="79.437881">Ideation and Prototype</text>
+       y="79.702461">Ideation and Prototype</text>
     <text
        xml:space="preserve"
        id="text648-0"
