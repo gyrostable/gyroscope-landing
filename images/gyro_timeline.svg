@@ -5,9 +5,9 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="278.94644mm"
-   height="162.90771mm"
-   viewBox="0 0 278.94644 162.90771"
+   width="262.87201mm"
+   height="142.07077mm"
+   viewBox="0 0 262.87201 142.07077"
    version="1.1"
    id="svg8">
   <defs
@@ -15,7 +15,7 @@
     <rect
        x="-37.419643"
        y="59.342262"
-       width="61.232144"
+       width="61.232143"
        height="23.056549"
        id="rect650" />
     <clipPath
@@ -42,7 +42,7 @@
     <rect
        x="-37.419643"
        y="59.342262"
-       width="56.318454"
+       width="56.318455"
        height="15.497025"
        id="rect650-3-3" />
     <rect
@@ -66,7 +66,7 @@
     <rect
        x="-37.419643"
        y="59.342262"
-       width="54.428573"
+       width="54.428574"
        height="15.497025"
        id="rect650-3-68" />
     <rect
@@ -78,7 +78,7 @@
     <rect
        x="-37.419643"
        y="59.342262"
-       width="37.419645"
+       width="37.419643"
        height="15.119049"
        id="rect650-3-0" />
     <rect
@@ -102,7 +102,7 @@
     <rect
        x="-37.419643"
        y="59.342262"
-       width="45.735121"
+       width="45.735123"
        height="15.497025"
        id="rect650-3-7" />
     <rect
@@ -114,7 +114,7 @@
     <rect
        x="-37.419643"
        y="59.342262"
-       width="33.639882"
+       width="33.639881"
        height="15.875001"
        id="rect650-3-62" />
     <rect
@@ -138,7 +138,7 @@
   </metadata>
   <g
      id="layer1"
-     transform="translate(41.955357,-64.633926)">
+     transform="translate(33.024658,-74.093781)">
     <path
        d="M -15.388608,96.403866 H 158.4429 l 14.55182,14.552084 v 14.55208 H -15.388608 Z"
        fill="#e7e6e6"
@@ -146,11 +146,11 @@
        id="path441"
        style="stroke-width:0.264583" />
     <path
-       d="m 172.99472,125.24345 v 60.325 l -14.55209,14.55208 h -14.55208 v -74.87708 z"
+       d="m 172.99472,125.24345 v 60.43267 l -14.55209,14.57805 h -14.55208 v -75.01072 z"
        fill="#e7e6e6"
        fill-rule="evenodd"
        id="path443"
-       style="stroke-width:0.264583" />
+       style="stroke-width:0.264819" />
     <path
        d="m -15.388608,185.83303 28.83958,-28.83958 v 14.41979 H 147.06555 v 28.83958 H 13.450972 v 14.41979 z"
        fill="#e7e6e6"
@@ -234,25 +234,25 @@
        id="text648"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="-2.3619952"
-       y="79.173302">Ideation and Prototype</text>
+       y="79.437881">Ideation and Prototype</text>
     <text
        xml:space="preserve"
        id="text648-0"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="42.57"
-       y="132.8114">Econ. Design</text>
+       y="132.28224">Econ. Design</text>
     <text
        xml:space="preserve"
        id="text648-0-3"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="79.207603"
-       y="86.532822">First Vault on Testnet</text>
+       y="86.268234">First Vault on Testnet</text>
     <text
        xml:space="preserve"
        id="text648-0-7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="135.46338"
-       y="86.769012">Balancer Grant</text>
+       y="86.239845">Balancer Grant</text>
     <text
        xml:space="preserve"
        id="text648-0-1"
@@ -276,25 +276,25 @@
        id="text648-0-6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="69.690155"
-       y="161.26683">Beta Test-in-Prod</text>
+       y="161.79599">Beta Test-in-Prod</text>
     <text
        xml:space="preserve"
        id="text648-0-2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="32.593792"
-       y="206.73503">Full Mainnet</text>
+       y="207.26419">Full Mainnet</text>
     <text
        xml:space="preserve"
        id="text648-8"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="-3.3159976"
-       y="85.792236">IC3 Bootcamp</text>
+       y="86.056816">IC3 Bootcamp</text>
     <text
        xml:space="preserve"
        id="text648-85"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="-2.5141885"
-       y="93.008507"><tspan
+       y="93.273087"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
          id="tspan48-9">Jul 2020</tspan></text>
     <text
@@ -302,7 +302,7 @@
        id="text648-0-3-5"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="78.930374"
-       y="93.508957"><tspan
+       y="93.24437"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
          id="tspan66-9">Oct 2020</tspan></text>
     <text
@@ -310,7 +310,7 @@
        id="text648-0-7-1"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="135.61299"
-       y="93.770851"><tspan
+       y="93.241684"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
          id="tspan75-1">Nov 2020</tspan></text>
     <text
@@ -344,7 +344,7 @@
        id="text648-0-2-0"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="32.714233"
-       y="213.26181"><tspan
+       y="213.79097"><tspan
          style="font-weight:bold;text-align:center;text-anchor:middle"
          id="tspan124-9">TBA 2021</tspan></text>
     <text
@@ -352,7 +352,7 @@
        id="text648-0-6-5"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="70.272202"
-       y="167.81111"><tspan
+       y="168.34027"><tspan
          style="font-weight:bold;text-align:center;text-anchor:middle"
          id="tspan113-3">Apr</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
@@ -362,7 +362,7 @@
        id="text648-0-30"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="42.464603"
-       y="139.92766"><tspan
+       y="139.3985"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
          id="tspan57-0">Fall 2020</tspan></text>
   </g>
