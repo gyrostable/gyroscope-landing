@@ -1,5 +1,6 @@
 # Hydra
 
+Template by CloudCannon: https://cloudcannon.com/
 Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
 Increase the web presence of your brand with this configurable theme.
 

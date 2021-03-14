@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
         <img src="{{ site.baseurl }}/images/blackhole.png" height="33" alt="Gyroscope Logo">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
             {% for sublink in link.sublinks %}
-            <a class="dropdown-item nav-item" href="{% include relative-src.html src=sublink.link %}">{{ sublink.name }}</a>
+            <a class="dropdown-item nav-item" href="{% include relative-src.html src=sublink.link %}" {% if link.new_window %}target="_blank"{% endif %}>{{ sublink.name }}</a>
             {% endfor %}
 
           </div>

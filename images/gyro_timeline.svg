@@ -5,9 +5,9 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="262.87201mm"
+   width="271.33868mm"
    height="142.07077mm"
-   viewBox="0 0 262.87201 142.07077"
+   viewBox="0 0 271.33868 142.07077"
    version="1.1"
    id="svg8">
   <defs
@@ -233,136 +233,154 @@
        xml:space="preserve"
        id="text648"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="-2.3619952"
-       y="79.702461">Ideation and Prototype</text>
+       x="-0.77449518"
+       y="79.702461"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+         id="tspan72">Ideation and Prototype</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="42.57"
-       y="132.28224">Econ. Design</text>
+       y="132.8114">Econ. Design</text>
     <text
        xml:space="preserve"
        id="text648-0-3"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="79.207603"
-       y="86.268234">First Vault on Testnet</text>
+       x="78.149269"
+       y="86.268234"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+         id="tspan76">First Vault on Testnet</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="135.46338"
-       y="86.239845">Balancer Grant</text>
+       x="137.58002"
+       y="86.239845"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+         id="tspan78">Balancer Grant</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-1"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="202.05728"
-       y="132.54358">White Paper Release</text>
+       x="206.29056"
+       y="132.54358"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+         id="tspan80">White Paper Release</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-4"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="193.05836"
-       y="173.8131">Alpha Testnet</text>
+       x="195.70416"
+       y="173.8131"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+         id="tspan82">Alpha Testnet</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-0"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="127.60368"
-       y="207.16499">Gamified Testnet</text>
+       y="207.69415"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+         id="tspan84">Gamified Testnet</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="69.690155"
-       y="161.79599">Beta Test-in-Prod</text>
+       y="161.26683"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+         id="tspan86">Beta Test-in-Prod</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="32.593792"
-       y="207.26419">Full Mainnet</text>
+       x="35.239628"
+       y="207.79335"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+         id="tspan88">Full Mainnet</tspan></text>
     <text
        xml:space="preserve"
        id="text648-8"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="-3.3159976"
-       y="86.056816">IC3 Bootcamp</text>
+       x="-1.7284975"
+       y="86.056816"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+         id="tspan74">IC3 Bootcamp</tspan></text>
     <text
        xml:space="preserve"
        id="text648-85"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="-2.5141885"
+       x="-0.92668849"
        y="93.273087"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
          id="tspan48-9">Jul 2020</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-3-5"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="78.930374"
+       x="77.87204"
        y="93.24437"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
          id="tspan66-9">Oct 2020</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-7-1"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="135.61299"
+       x="137.72963"
        y="93.241684"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
          id="tspan75-1">Nov 2020</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-1-8"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="201.85719"
+       x="206.09047"
        y="139.22815"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
          id="tspan84-5">Dec 2020</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-4-7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="193.83363"
+       x="196.47943"
        y="180.64955"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
          id="tspan93-0">Feb 2021</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-0-7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="127.98775"
-       y="213.54149"><tspan
-         style="font-weight:bold;text-align:center;text-anchor:middle"
+       y="214.07065"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
          id="tspan102-7">Mar</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
          id="tspan104-7"> 2021</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-2-0"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="32.714233"
-       y="213.79097"><tspan
-         style="font-weight:bold;text-align:center;text-anchor:middle"
+       x="35.360069"
+       y="214.32013"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
          id="tspan124-9">TBA 2021</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-6-5"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="70.272202"
-       y="168.34027"><tspan
-         style="font-weight:bold;text-align:center;text-anchor:middle"
+       y="167.81111"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
          id="tspan113-3">Apr</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
          id="tspan115-3"> 2021</tspan></text>
     <text
        xml:space="preserve"
        id="text648-0-30"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
        x="42.464603"
-       y="139.3985"><tspan
+       y="139.92766"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
          id="tspan57-0">Fall 2020</tspan></text>
   </g>

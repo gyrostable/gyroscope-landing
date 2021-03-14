@@ -4,10 +4,13 @@
   sublinks:
     - name: What is a stablecoin?
       link: https://docs.gyro.finance/learn/gyroscope-stablecoin
+      new_window: true
     - name: Gyroscopic stability
       link: https://docs.gyro.finance/learn/gyroscope-stability
+      new_window: true
     - name: Governance
       link: https://docs.gyro.finance/learn/gyroscope-governance
+      new_window: true
 - name: Community
   new_window: true
   highlight: false
@@ -15,6 +18,7 @@
     - name: Twitter
       link: https://twitter.com/gyrostable/
       social_icon: Twitter
+      new_window: true
     - name: Discord
       link: https://discord.gg/AuMfEG7B
       social_icon: Discord
@@ -24,11 +28,11 @@
   new_window: true
   highlight: false
 - name: Timeline
-  link: /timeline/
+  link: "#timeline"
   new_window: false
   highlight: false
 - name: Team
-  link: /about/
+  link: "#team"
   new_window: false
   highlight: false
 - name: Docs

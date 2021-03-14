@@ -12,6 +12,8 @@
 		<link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/blackhole.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
@@ -47,17 +49,10 @@
 					</ul>
 					{% endfor %}
 				</div>
-				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Stablecoin Labs Limited <!--• <a href="#">Terms</a> &amp; <a href="#">Privacy</a> --> • <a href="https://cloudcannon.com/">Template by CloudCannon</a></p>
+				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Stablecoin Labs Limited <!--• <a href="#">Terms</a> &amp; <a href="#">Privacy</a> --> </p>
 			</div>
 		</footer>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous"></script>
-
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" integrity="sha512-wV7Yj1alIZDqZFCUQJy85VN+qvEIly93fIQAN7iqDFCPEucLCeNFz4r35FCo9s6WrpdDQPi80xbljXB8Bjtvcg==" crossorigin="anonymous"></script>
-		<script>
-			document.getElementById("open-nav").onclick = function () {
-				document.body.classList.toggle("nav-open");
-				return false;
-			};
-		</script>
 	</body>
 </html>
