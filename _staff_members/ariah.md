@@ -4,7 +4,7 @@ position: Economic design, Solidity dev
 image_path: /images/Ariah Klages-Mundt.png
 twitter: aklamun
 bio: |
-  PhD applied math @Cornell (upcoming). DeFi researcher with influential track record, including predicting Black Thursday-like crises in Dai. Prior quant development experience in financial technology sector
+  DeFi researcher with influential track record, including predicting Black Thursday-type crises in Dai. Ariah is completing a PhD in applied math at Cornell, is a Bloomberg Fellow and Commercialization Fellow, and has prior quant development experience in the financial technology sector.
 links:
   - icon: fab fa-twitter
     url: https://twitter.com/aklamun
