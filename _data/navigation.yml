@@ -55,6 +55,10 @@
   link: /vote/
   new_window: false
   highlight: false
+- name: CN-关于我们
+  link: https://docs.gyro.finance/learn/cn-guan-yu-wo-men
+  new_window: true
+  highlight: false
 - name: App
   link: https://test.gyro.finance
   new_window: true
