@@ -4,7 +4,7 @@
     new_window: false
     highlight: false
   - name: Blog
-    link: https://medium.com/gyroscope-protocol
+    link: https://medium.com/gyroscope-protocol/latest
   - name: Team
     link: /about/
   # - name: Contact
