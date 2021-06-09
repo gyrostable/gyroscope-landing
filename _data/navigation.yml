@@ -2,11 +2,11 @@
   new_window: true
   highlight: false
   sublinks:
+    - name: Overview
+      link: https://docs.gyro.finance/
+      new_window: true
     - name: What is a stablecoin?
       link: https://docs.gyro.finance/learn/gyroscope-stablecoin
-      new_window: true
-    - name: How Gyro is different
-      link: https://docs.gyro.finance/learn/how-is-gyroscope-different
       new_window: true
     - name: Gyroscopic stability
       link: https://docs.gyro.finance/learn/gyroscope-stability
@@ -14,14 +14,14 @@
     - name: Composability risk
       link: https://docs.gyro.finance/learn/stratifying-composability-risk
       new_window: true
-    - name: Gyroscope AMMs
+    - name: Gyro AMMs
       link: https://docs.gyro.finance/learn/gyro-amms
       new_window: true
-    - name: Governance
+    - name: Governance design
       link: https://docs.gyro.finance/learn/gyroscope-governance
       new_window: true
-    - name: Scalability
-      link: https://docs.gyro.finance/learn/soundly-scalable
+    - name: How Gyro is different
+      link: https://docs.gyro.finance/learn/how-is-gyroscope-different
       new_window: true
 - name: Community
   new_window: true
