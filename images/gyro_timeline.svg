@@ -156,270 +156,274 @@
   </metadata>
   <g
      id="layer1"
-     transform="translate(33.024658,-74.093781)">
-    <path
-       d="M -15.388608,96.403866 H 158.4429 l 14.55182,14.552084 v 14.55208 H -15.388608 Z"
-       fill="#e7e6e6"
-       fill-rule="evenodd"
-       id="path441"
-       style="stroke-width:0.264583" />
-    <path
-       d="m 172.99472,125.24345 v 60.37938 l -14.55209,14.56519 h -14.55208 v -74.94457 z"
-       fill="#e7e6e6"
-       fill-rule="evenodd"
-       id="path443"
-       style="stroke-width:0.264702" />
-    <path
-       d="M -15.388608,185.83303 15.50591,156.99345 v 14.41979 h 143.13516 v 28.83958 H 15.50591 v 14.41979 z"
-       fill="#e7e6e6"
-       fill-rule="evenodd"
-       id="path445"
-       style="stroke-width:0.273847" />
-    <path
-       d="M -15.388608,96.139276 H 158.55457 l 14.70473,14.684384 -14.70473,14.68437 H -15.388608 l 14.7049945,-14.68437 z"
-       fill="#7f7f7f"
-       fill-rule="evenodd"
-       id="path447"
-       style="stroke-width:0.264769" />
-    <path
-       d="m -9.8323576,110.82366 c 0,-4.31059 3.55361,-7.80521 7.9375,-7.80521 4.38388,0 7.9375,3.49462 7.9375,7.80521 0,4.31059 -3.55362,7.80521 -7.9375,7.80521 -4.38389,0 -7.9375,-3.49462 -7.9375,-7.80521 z"
-       fill="#0d0d0d"
-       fill-rule="evenodd"
-       id="path449"
-       style="stroke-width:0.264583" />
-    <path
-       d="m 33.294722,110.95595 c 0,-4.38388 3.49462,-7.9375 7.80521,-7.9375 4.31059,0 7.8052,3.55362 7.8052,7.9375 0,4.38388 -3.49461,7.9375 -7.8052,7.9375 -4.31059,0 -7.80521,-3.55362 -7.80521,-7.9375 z"
-       fill="#0d0d0d"
-       fill-rule="evenodd"
-       id="path451"
-       style="stroke-width:0.264583" />
-    <path
-       d="m 76.157222,110.82366 c 0,-4.31059 3.55362,-7.80521 7.9375,-7.80521 4.38388,0 7.9375,3.49462 7.9375,7.80521 0,4.31059 -3.55362,7.80521 -7.9375,7.80521 -4.38388,0 -7.9375,-3.49462 -7.9375,-7.80521 z"
-       fill="#0d0d0d"
-       fill-rule="evenodd"
-       id="path453"
-       style="stroke-width:0.264583" />
-    <path
-       d="m 119.2843,110.95595 c 0,-4.38388 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55362 7.9375,7.9375 0,4.38388 -3.55362,7.9375 -7.9375,7.9375 -4.38388,0 -7.9375,-3.55362 -7.9375,-7.9375 z"
-       fill="#0d0d0d"
-       fill-rule="evenodd"
-       id="path455"
-       style="stroke-width:0.264583" />
-    <path
-       d="m 62.134302,185.83303 c 0,-4.38388 3.49462,-7.9375 7.80521,-7.9375 4.31059,0 7.80521,3.55362 7.80521,7.9375 0,4.38388 -3.49462,7.9375 -7.80521,7.9375 -4.31059,0 -7.80521,-3.55362 -7.80521,-7.9375 z"
-       fill="#0d0d0d"
-       fill-rule="evenodd"
-       id="path459"
-       style="stroke-width:0.264583" />
-    <path
-       d="m 13.450972,185.83303 c 0,-4.38388 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55362 7.9375,7.9375 0,4.38388 -3.55362,7.9375 -7.9375,7.9375 -4.38388,0 -7.9375,-3.55362 -7.9375,-7.9375 z"
-       fill="#0d0d0d"
-       fill-rule="evenodd"
-       id="path461"
-       style="stroke-width:0.264583" />
-    <path
-       d="m 173.2593,110.82366 v 18.06481 l -14.55208,14.61123 h -14.55209 v -32.67604 z"
-       fill="#7f7f7f"
-       fill-rule="evenodd"
-       id="path531"
-       style="stroke-width:0.26512" />
-    <path
-       d="m 173.2593,125.24345 v 60.3302 l -14.68437,14.71791 -14.68438,-14.71791 v -60.3302 l 14.68438,14.71793 z"
-       fill="#7f7f7f"
-       fill-rule="evenodd"
-       id="path533"
-       style="stroke-width:0.264884" />
-    <path
-       d="m 150.76972,133.44553 c 0,-4.38388 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55362 7.9375,7.9375 0,4.38388 -3.55362,7.9375 -7.9375,7.9375 -4.38388,0 -7.9375,-3.55362 -7.9375,-7.9375 z"
-       fill="#0d0d0d"
-       fill-rule="evenodd"
-       id="path537"
-       style="stroke-width:0.264583" />
-    <text
-       xml:space="preserve"
-       id="text648"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="-0.77449518"
-       y="79.702461"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
-         id="tspan72">Ideation and Prototype</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="42.57"
-       y="132.8114">Econ. Design</text>
-    <text
-       xml:space="preserve"
-       id="text648-0-3"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="78.149269"
-       y="86.268234"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
-         id="tspan76">First Vault on Testnet</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-7"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="137.58002"
-       y="86.239845"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
-         id="tspan78">Balancer Grant</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-1"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="206.29056"
-       y="132.54358"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
-         id="tspan80">White Paper Release</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-4"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="195.70416"
-       y="173.8131"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
-         id="tspan82">Alpha Testnet</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-0"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="127.60368"
-       y="207.69415"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
-         id="tspan84">Gamified Testnet</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-6"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="71.806824"
-       y="161.26683"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
-         id="tspan86">PAMM Implementation</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-2"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="35.239628"
-       y="207.79335"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
-         id="tspan88">Full Mainnet</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-8"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="-1.7284975"
-       y="86.056816"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
-         id="tspan74">IC3 Bootcamp</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-85"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="-0.92668849"
-       y="93.273087"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
-         id="tspan48-9">Jul 2020</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-3-5"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="77.87204"
-       y="93.24437"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
-         id="tspan66-9">Oct 2020</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-7-1"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="137.72963"
-       y="93.241684"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
-         id="tspan75-1">Nov 2020</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-1-8"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="206.09047"
-       y="139.22815"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
-         id="tspan84-5">Dec 2020</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-4-7"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="196.47943"
-       y="180.64955"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
-         id="tspan93-0">Feb 2021</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-0-7"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="127.98775"
-       y="214.07065"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
-         id="tspan104-7">Apr 2021</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-2-0"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="35.360069"
-       y="214.32013"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
-         id="tspan124-9">Q4 2021</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-6-5"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="70.272202"
-       y="167.81111"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
-         id="tspan115-3">Jun 2021</tspan></text>
-    <text
-       xml:space="preserve"
-       id="text648-0-30"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
-       x="42.464603"
-       y="139.92766"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
-         id="tspan57-0">Fall 2020</tspan></text>
-    <path
-       d="m 158.64107,200.25282 h -60.325 L 83.76399,185.83303 98.31607,171.41324 h 60.325 l -14.55208,14.41979 z"
-       fill="#7f7f7f"
-       fill-rule="evenodd"
-       id="path86"
-       style="stroke-width:0.263378" />
-    <path
-       d="m 150.76972,174.72079 c 0,-4.38389 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55361 7.9375,7.9375 0,4.38388 -3.55362,7.93749 -7.9375,7.93749 -4.38388,0 -7.9375,-3.55361 -7.9375,-7.93749 z"
-       fill="#0d0d0d"
-       fill-rule="evenodd"
-       id="path535"
-       style="stroke-width:0.264583" />
-    <path
-       d="m 113.46358,185.83303 c 0,-4.38388 3.49464,-7.9375 7.80525,-7.9375 4.31061,0 7.80525,3.55362 7.80525,7.9375 0,4.38388 -3.49464,7.9375 -7.80525,7.9375 -4.31061,0 -7.80525,-3.55362 -7.80525,-7.9375 z"
-       fill="#0d0d0d"
-       fill-rule="evenodd"
-       id="path457"
-       style="stroke-width:0.264583" />
-    <rect
-       x="138.33429"
-       y="183.25468"
-       width="20.108334"
-       height="16.933332"
-       fill="#7f7f7f"
-       id="rect146"
-       style="stroke-width:0.183793" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="39.471176"
-       y="186.93857"
-       id="text87"><tspan
-         id="tspan85"
+     transform="translate(32.859817,-77.131284)">
+    <g
+       id="layer1-7"
+       transform="translate(0.16484095,3.0375033)">
+      <path
+         d="M -15.388608,96.403866 H 158.4429 l 14.55182,14.552084 v 14.55208 H -15.388608 Z"
+         fill="#e7e6e6"
+         fill-rule="evenodd"
+         id="path441"
+         style="stroke-width:0.264583" />
+      <path
+         d="m 172.99472,125.24345 v 60.37938 l -14.55209,14.56519 h -14.55208 v -74.94457 z"
+         fill="#e7e6e6"
+         fill-rule="evenodd"
+         id="path443"
+         style="stroke-width:0.264702" />
+      <path
+         d="M -15.388608,185.83303 15.50591,156.99345 v 14.41979 h 143.13516 v 28.83958 H 15.50591 v 14.41979 z"
+         fill="#e7e6e6"
+         fill-rule="evenodd"
+         id="path445"
+         style="stroke-width:0.273847" />
+      <path
+         d="M -15.388608,96.139276 H 158.55457 l 14.70473,14.684384 -14.70473,14.68437 H -15.388608 l 14.7049945,-14.68437 z"
+         fill="#7f7f7f"
+         fill-rule="evenodd"
+         id="path447"
+         style="stroke-width:0.264769" />
+      <path
+         d="m -9.8323576,110.82366 c 0,-4.31059 3.55361,-7.80521 7.9375,-7.80521 4.38388,0 7.9375,3.49462 7.9375,7.80521 0,4.31059 -3.55362,7.80521 -7.9375,7.80521 -4.38389,0 -7.9375,-3.49462 -7.9375,-7.80521 z"
+         fill="#0d0d0d"
+         fill-rule="evenodd"
+         id="path449"
+         style="stroke-width:0.264583" />
+      <path
+         d="m 33.294722,110.95595 c 0,-4.38388 3.49462,-7.9375 7.80521,-7.9375 4.31059,0 7.8052,3.55362 7.8052,7.9375 0,4.38388 -3.49461,7.9375 -7.8052,7.9375 -4.31059,0 -7.80521,-3.55362 -7.80521,-7.9375 z"
+         fill="#0d0d0d"
+         fill-rule="evenodd"
+         id="path451"
+         style="stroke-width:0.264583" />
+      <path
+         d="m 76.157222,110.82366 c 0,-4.31059 3.55362,-7.80521 7.9375,-7.80521 4.38388,0 7.9375,3.49462 7.9375,7.80521 0,4.31059 -3.55362,7.80521 -7.9375,7.80521 -4.38388,0 -7.9375,-3.49462 -7.9375,-7.80521 z"
+         fill="#0d0d0d"
+         fill-rule="evenodd"
+         id="path453"
+         style="stroke-width:0.264583" />
+      <path
+         d="m 119.2843,110.95595 c 0,-4.38388 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55362 7.9375,7.9375 0,4.38388 -3.55362,7.9375 -7.9375,7.9375 -4.38388,0 -7.9375,-3.55362 -7.9375,-7.9375 z"
+         fill="#0d0d0d"
+         fill-rule="evenodd"
+         id="path455"
+         style="stroke-width:0.264583" />
+      <path
+         d="m 13.450972,185.83303 c 0,-4.38388 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55362 7.9375,7.9375 0,4.38388 -3.55362,7.9375 -7.9375,7.9375 -4.38388,0 -7.9375,-3.55362 -7.9375,-7.9375 z"
+         fill="#0d0d0d"
+         fill-rule="evenodd"
+         id="path461"
+         style="stroke-width:0.264583" />
+      <path
+         d="m 173.2593,110.82366 v 18.06481 l -14.55208,14.61123 h -14.55209 v -32.67604 z"
+         fill="#7f7f7f"
+         fill-rule="evenodd"
+         id="path531"
+         style="stroke-width:0.26512" />
+      <path
+         d="m 173.2593,125.24345 v 60.3302 l -14.68437,14.71791 -14.68438,-14.71791 v -60.3302 l 14.68438,14.71793 z"
+         fill="#7f7f7f"
+         fill-rule="evenodd"
+         id="path533"
+         style="stroke-width:0.264884" />
+      <path
+         d="m 150.76972,133.44553 c 0,-4.38388 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55362 7.9375,7.9375 0,4.38388 -3.55362,7.9375 -7.9375,7.9375 -4.38388,0 -7.9375,-3.55362 -7.9375,-7.9375 z"
+         fill="#0d0d0d"
+         fill-rule="evenodd"
+         id="path537"
+         style="stroke-width:0.264583" />
+      <text
+         xml:space="preserve"
+         id="text648"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="-0.77449518"
+         y="79.702461"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+           id="tspan72">Ideation and Prototype</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="42.57"
+         y="132.8114">Econ. Design</text>
+      <text
+         xml:space="preserve"
+         id="text648-0-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="78.149269"
+         y="86.268234"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+           id="tspan76">First Vault on Testnet</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="137.58002"
+         y="86.239845"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+           id="tspan78">Balancer Grant</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="206.29056"
+         y="132.54358"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+           id="tspan80">White Paper Release</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="195.70416"
+         y="173.8131"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+           id="tspan82">Alpha Testnet</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="127.60368"
+         y="207.69415"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+           id="tspan84">Gamified Testnet</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="81.634201"
+         y="161.07785"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+           id="tspan86">P-AMM</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="35.239628"
+         y="207.79335"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+           id="tspan88">Full Mainnet</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="-1.7284975"
+         y="86.056816"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial"
+           id="tspan74">IC3 Bootcamp</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-85"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="-0.92668849"
+         y="93.273087"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
+           id="tspan48-9">Jul 2020</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-3-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="77.87204"
+         y="93.24437"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
+           id="tspan66-9">Oct 2020</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-7-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="137.72963"
+         y="93.241684"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
+           id="tspan75-1">Nov 2020</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-1-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="206.09047"
+         y="139.22815"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
+           id="tspan84-5">Dec 2020</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-4-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="196.47943"
+         y="180.64955"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
+           id="tspan93-0">Feb 2021</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-0-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="127.98775"
+         y="214.07065"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
+           id="tspan104-7">Apr 2021</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="35.360069"
+         y="214.32013"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
+           id="tspan124-9">Q4 2021</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-6-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="81.611481"
+         y="167.62213"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:arial;-inkscape-font-specification:'arial Bold';text-align:center;text-anchor:middle"
+           id="tspan115-3">Jul 2021</tspan></text>
+      <text
+         xml:space="preserve"
+         id="text648-0-30"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:calibri;-inkscape-font-specification:calibri;text-align:center;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="42.464603"
+         y="139.92766"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:calibri;-inkscape-font-specification:'calibri Bold';text-align:center;text-anchor:middle"
+           id="tspan57-0">Fall 2020</tspan></text>
+      <path
+         d="M 158.64107,200.25282 H 73.497858 L 52.95893,185.83303 73.497858,171.41324 h 85.143212 l -20.53893,14.41979 z"
+         fill="#7f7f7f"
+         fill-rule="evenodd"
+         id="path86"
+         style="stroke-width:0.3129" />
+      <path
+         d="m 113.46358,185.83303 c 0,-4.38388 3.49464,-7.9375 7.80525,-7.9375 4.31061,0 7.80525,3.55362 7.80525,7.9375 0,4.38388 -3.49464,7.9375 -7.80525,7.9375 -4.31061,0 -7.80525,-3.55362 -7.80525,-7.9375 z"
+         fill="#0d0d0d"
+         fill-rule="evenodd"
+         id="path457"
+         style="stroke-width:0.264583" />
+      <rect
+         x="136.06644"
+         y="181.08466"
+         width="22.37619"
+         height="19.103365"
+         fill="#7f7f7f"
+         id="rect146"
+         style="stroke-width:0.205929" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="39.471176"
          y="186.93857"
-         style="stroke-width:0.264583">...</tspan></text>
+         id="text87"><tspan
+           id="tspan85"
+           x="39.471176"
+           y="186.93857"
+           style="stroke-width:0.264583">...</tspan></text>
+      <path
+         d="m 71.404956,185.7994 c 0,-4.38388 3.49462,-7.9375 7.80521,-7.9375 4.31059,0 7.80521,3.55362 7.80521,7.9375 0,4.38388 -3.49462,7.9375 -7.80521,7.9375 -4.31059,0 -7.80521,-3.55362 -7.80521,-7.9375 z"
+         fill="#0d0d0d"
+         fill-rule="evenodd"
+         id="path459"
+         style="stroke-width:0.264583" />
+      <path
+         d="m 150.76972,174.72079 c 0,-4.38389 3.55362,-7.9375 7.9375,-7.9375 4.38388,0 7.9375,3.55361 7.9375,7.9375 0,4.38388 -3.55362,7.93749 -7.9375,7.93749 -4.38388,0 -7.9375,-3.55361 -7.9375,-7.93749 z"
+         fill="#0d0d0d"
+         fill-rule="evenodd"
+         id="path535-7"
+         style="stroke-width:0.264583" />
+    </g>
   </g>
 </svg>
