@@ -1,3 +1,14 @@
+- name: Join us!
+  link: "#jobs"
+  new_window: false
+  highlight: false
+  sublinks:
+  - name: Senior smart contract engineer
+    link: https://hackmd.io/@gyroscope/senior-sc-engineer-jd
+    new_window: true
+  - name: Lead front-end engineer
+    link: https://hackmd.io/@gyroscope/lead-frontend-jd
+    new_window: true
 - name: Learn
   new_window: true
   highlight: false
