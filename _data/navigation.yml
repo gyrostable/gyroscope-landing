@@ -14,6 +14,9 @@
       link: https://discord.gg/2vnqnS7wE6
       social_icon: Discord
       new_window: true
+    - name: Forum
+      link: https://gov.gyro.finance
+      new_window: true
 - name: Blog
   link: https://medium.com/gyroscope-protocol/latest
   new_window: true
