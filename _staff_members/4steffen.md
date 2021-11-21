@@ -1,6 +1,6 @@
 ---
 name: Steffen Schuldenzucker
-position: Economic design
+position: Research & Development
 image_path: /images/steffen.png
 twitter: sschuldenzucker
 bio: |

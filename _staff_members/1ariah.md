@@ -1,6 +1,6 @@
 ---
 name: Ariah Klages-Mundt
-position: Economic design, Solidity dev
+position: Research & Development
 image_path: /images/Ariah Klages-Mundt.png
 twitter: aklamun
 bio: |
