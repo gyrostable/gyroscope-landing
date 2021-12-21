@@ -1,6 +1,6 @@
 ---
 name: Jonas Klemm
-position: Integrations, Governance
+position: Growth & Governance
 image_path: /images/jonas.png
 twitter: blockchaisin
 bio: |

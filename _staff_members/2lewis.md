@@ -1,6 +1,6 @@
 ---
 name: Lewis Gudgeon
-position: Economic design, senior engineer
+position: Development & Operations
 image_path: /images/lewis.png
 twitter: ljfgudgeon
 bio: |

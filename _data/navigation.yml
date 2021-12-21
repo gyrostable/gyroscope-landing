@@ -1,39 +1,7 @@
-- name: Join us!
-  link: "#jobs"
-  new_window: false
-  highlight: false
-  sublinks:
-  - name: Senior smart contract engineer
-    link: https://hackmd.io/@gyroscope/senior-sc-engineer-jd
-    new_window: true
-  - name: Lead front-end engineer
-    link: https://hackmd.io/@gyroscope/lead-frontend-jd
-    new_window: true
-- name: Learn
+- name: Docs
+  link: https://docs.gyro.finance
   new_window: true
   highlight: false
-  sublinks:
-    - name: Overview
-      link: https://docs.gyro.finance/
-      new_window: true
-    - name: What is a stablecoin?
-      link: https://docs.gyro.finance/learn/gyroscope-stablecoin
-      new_window: true
-    - name: Gyroscopic stability
-      link: https://docs.gyro.finance/learn/gyroscope-stability
-      new_window: true
-    - name: Composability risk
-      link: https://docs.gyro.finance/learn/stratifying-composability-risk
-      new_window: true
-    - name: Gyro AMMs
-      link: https://docs.gyro.finance/learn/gyro-amms
-      new_window: true
-    - name: Governance design
-      link: https://docs.gyro.finance/learn/gyroscope-governance
-      new_window: true
-    - name: How Gyro is different
-      link: https://docs.gyro.finance/learn/how-is-gyroscope-different
-      new_window: true
 - name: Community
   new_window: true
   highlight: false
@@ -46,25 +14,20 @@
       link: https://discord.gg/2vnqnS7wE6
       social_icon: Discord
       new_window: true
+    - name: Forum
+      link: https://gov.gyro.finance
+      new_window: true
 - name: Blog
   link: https://medium.com/gyroscope-protocol/latest
   new_window: true
   highlight: false
-- name: Timeline
+- name: Roadmap
   link: "#timeline"
   new_window: false
   highlight: false
-- name: Team
-  link: "#team"
+- name: About
+  link: "#about"
   new_window: false
-  highlight: false
-- name: Docs
-  link: https://docs.gyro.finance
-  new_window: true
-  highlight: false
-- name: CN-关于我们
-  link: https://docs.gyro.finance/learn/cn-guan-yu-wo-men
-  new_window: true
   highlight: false
 - name: App
   link: https://test.gyro.finance
