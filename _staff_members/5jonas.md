@@ -7,7 +7,7 @@ bio: |
   Jonas focuses on integrations and governance. He  holds two MSc in International Business from the University of Groningen and Newcastle University and BSc in Industrial Engineering. Previously on the Research Team at Binance and the Innovation Team of the European Central Bank, where he focused on stablecoins.
 links:
   - icon: fab fa-twitter
-    url: https://twitter.com/blockchaisin
+    url: https://twitter.com/jooooo5as
   - icon: fab fa-github
     url: https://github.com/Lor3mi
   - icon: ai ai-google-scholar
