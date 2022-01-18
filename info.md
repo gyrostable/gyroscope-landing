@@ -23,7 +23,7 @@ The DeFi services offered through GYROSCOPE™ and for use of the stablecoin inc
 5. Issuance and management of the stablecoin, other digital currency, virtual tokens, virtual token payment processing; 
 6. Trading and exchange services for the stablecoin, other digital currency, virtual tokens, commodities, financial derivatives, interest rate products, and equities;
 7. Real-time currency trading; 
-8. Monetary exchange services, exchanging cash of others for digitized assets, namely, bitcoins, ethereum, cryptocurrency, digital tokens, collateral for derivatives, derivative contracts, virtual currency, and digital currency; 
+8. Monetary exchange services, exchanging cash of others for digitized assets, namely, bitcoin, ethereum, cryptocurrency, digital tokens, collateral for derivatives, derivative contracts, virtual currency, and digital currency; 
 
 Users typically access DeFi through use of both downloadable and temporary non-downloadable software called decentralized applications (“dapps”), most of which currently run on the Ethereum blockchain, for creating, managing, executing and enforcing contracts using a distributed ledger and blockchain technology. The use of the stablecoin, GYFI™, and all of the transaction and financial services available from GYROSCOPE™ are accessible through GYROSCOPE™ dapps. 
 
