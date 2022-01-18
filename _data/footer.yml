@@ -1,21 +1,24 @@
 - links:
+  - name: Docs
+    link: https://docs.gyro.finance
+    new_window: true
   - name: Whitepaper
     link: /pdfs/Gyroscope_Lite_Paper.pdf
     new_window: false
     highlight: false
   - name: Blog
     link: https://medium.com/gyroscope-protocol/latest
-  - name: About
-    link: /about/
+    new_window: true
+  #- name: About
+  #  link: /about/
   # - name: Contact
   #   link: /contact/
 - links:
   - name: App
     link: https://test.gyro.finance
     new_window: true
-  - name: Docs
-    link: https://docs.gyro.finance
-    new_window: true
+  - name: Info
+    link: "info"
 - links:
   - name: Twitter
     link: https://twitter.com/gyrostable/
