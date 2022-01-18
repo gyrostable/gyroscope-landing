@@ -16,14 +16,14 @@ The stablecoin is unique for its algorithmic price bounding. Prices for minting 
 The GYRO™ protocol is controlled by GYFI™ token holders, who get pro rata decision making power over the strategy and general governance of the GYRO™ protocol.
 
 The DeFi services offered through GYROSCOPE™ and for use of the stablecoin include:
-1. Blockchain based payment processing and verification services for the stablecoin and other digital currencies and tokens;
-2. Electronic transfer of the stablecoin, other digital currencies, tokens and financial instruments; 
-3. Clearing and reconciling financial transactions; 
-4. Blockchain-based payment processing and verification services with smart contracts, self-executing code is used to process and manage financial and other transactions that occur on the blockchain; 
-5. Issuance and management of the stablecoin, other digital currency, virtual tokens, virtual token payment processing; 
-6. Trading and exchange services for the stablecoin, other digital currency, virtual tokens, commodities, financial derivatives, interest rate products, and equities;
-7. Real-time currency trading; 
-8. Monetary exchange services, exchanging cash of others for digitized assets, namely, bitcoin, ethereum, cryptocurrency, digital tokens, collateral for derivatives, derivative contracts, virtual currency, and digital currency; 
+* Blockchain based payment processing and verification services for the stablecoin and other digital currencies and tokens;
+* Electronic transfer of the stablecoin, other digital currencies, tokens and financial instruments; 
+* Clearing and reconciling financial transactions; 
+* Blockchain-based payment processing and verification services with smart contracts, self-executing code is used to process and manage financial and other transactions that occur on the blockchain; 
+* Issuance and management of the stablecoin, other digital currency, virtual tokens, virtual token payment processing; 
+* Trading and exchange services for the stablecoin, other digital currency, virtual tokens, commodities, financial derivatives, interest rate products, and equities;
+* Real-time currency trading; 
+* Monetary exchange services, exchanging cash of others for digitized assets, namely, bitcoin, ethereum, cryptocurrency, digital tokens, collateral for derivatives, derivative contracts, virtual currency, and digital currency; 
 
 Users typically access DeFi through use of both downloadable and temporary non-downloadable software called decentralized applications (“dapps”), most of which currently run on the Ethereum blockchain, for creating, managing, executing and enforcing contracts using a distributed ledger and blockchain technology. The use of the stablecoin, GYFI™, and all of the transaction and financial services available from GYROSCOPE™ are accessible through GYROSCOPE™ dapps. 
 
