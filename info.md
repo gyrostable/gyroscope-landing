@@ -3,7 +3,7 @@ layout: page
 title: Gyroscope Info
 ---
 
-![Alt Text](/images/gyro-blackhole-animate.gif)
+![Alt Text](/images/gyro-blackhole-animate-new.gif)
 
 Our mission is to build robust public infrastructure for decentralized finance (“DeFi”). The term decentralized finance or DeFi refers to financial services without third party intermediaries and using public blockchains. An example of DeFi is Ethereum. DeFi allows for transactions, products and services that banks offer, including payment of interest, borrowing, lending, insurance, trading of derivatives and other assets, through a secure peer-to-peer system open to everyone over the Internet. One advantage of DeFi is that it’s faster than traditional banking services and doesn’t require paperwork or a third party intermediary. Our DeFi blockchain infrastructure is GYROSCOPE™ or GYRO™ for short. 
 
