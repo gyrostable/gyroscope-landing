@@ -1,39 +1,40 @@
 - links:
-  - name: Docs
-    link: https://docs.gyro.finance
-    new_window: true
-  - name: Whitepaper
-    link: /pdfs/Gyroscope_Lite_Paper.pdf
-    new_window: false
-    highlight: false
-  - name: Blog
-    link: https://medium.com/gyroscope-protocol/latest
-    new_window: true
+    - name: Docs
+      link: https://docs.gyro.finance
+      new_window: true
+    - name: Whitepaper
+      link: /pdfs/Gyroscope_Lite_Paper.pdf
+      new_window: false
+      highlight: false
+    - name: Blog
+      link: https://medium.com/gyroscope-protocol/latest
+      new_window: true
   #- name: About
   #  link: /about/
   # - name: Contact
   #   link: /contact/
 - links:
-  - name: App
-    link: https://test.gyro.finance
-    new_window: true
-  - name: Info
-    link: "info"
+    - name: App
+      link: https://test.gyro.finance
+      new_window: true
+    - name: Info
+      link: "info"
+    - name: Vision
+      link: "vision"
 - links:
-  - name: Twitter
-    link: https://twitter.com/gyrostable/
-    social_icon: Twitter
-    new_window: true
-  # - name: Telegram
-  #   link: /
-  #   social_icon: Telegram
-  #   new_window: true
-  - name: Discord
-    link: https://discord.gg/2vnqnS7wE6
-    social_icon: Discord
-    new_window: true
-  - name: Github
-    link: https://github.com/gyrostable
-    social_icon: GitHub
-    new_window: true
-
+    - name: Twitter
+      link: https://twitter.com/gyrostable/
+      social_icon: Twitter
+      new_window: true
+    # - name: Telegram
+    #   link: /
+    #   social_icon: Telegram
+    #   new_window: true
+    - name: Discord
+      link: https://discord.gg/2vnqnS7wE6
+      social_icon: Discord
+      new_window: true
+    - name: Github
+      link: https://github.com/gyrostable
+      social_icon: GitHub
+      new_window: true
