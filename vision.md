@@ -3,29 +3,19 @@ layout: page
 title: Gyroscope Vision
 ---
 
-Our mission is to build robust public infrastructure for decentralized finance (“DeFi”). The term decentralized finance or DeFi refers to financial services without third party intermediaries and using public blockchains. An example of DeFi is Ethereum. DeFi allows for transactions, products and services that banks offer, including payment of interest, borrowing, lending, insurance, trading of derivatives and other assets, through a secure peer-to-peer system open to everyone over the Internet. One advantage of DeFi is that it’s faster than traditional banking services and doesn’t require paperwork or a third party intermediary. Our DeFi blockchain infrastructure is GYROSCOPE™ or GYRO™ for short.
+# Revolution in Resilience.
 
-The central piece of GYROSCOPE™ is a fully-backed stablecoin. A stablecoin is a cryptocurrency backed by reserve assets intended to offer price stability and diversify risks.
+### Gyroscope is bringing clarity and resilience to DeFi.
 
-The GYRO™ protocol creates a stablecoin with all-weather reserves and algorithmic price bounding. It has as an all-weather reserve because it is collateralized by a basket of protocol-controlled assets. The reserve aims to diversify risks in DeFi generally, including price risk, censorship, regulatory, counterparty, oracle and governance risks. GYRO™ targets a long-term reserve ratio of 100% - each unit of stablecoin being backed by 1 USD worth of collateral, reserve assets. Initially the stablecoin will be backed by other stablecoins.
+DeFi is still far from reaching its full potential.
 
-The stablecoin is unique for its algorithmic price bounding. Prices for minting and redeeming the stablecoin are set algorithmically to balance the goal of maintaining a tight peg to the reserve assets with the goal of long-term viability of the stablecoin in the face of short-term crises.
+Gyroscope is reconstructing Web3 market infrastructure in a more resilient and more transparent manner.
 
-The GYRO™ protocol is controlled by GYFI™ token holders, who get pro rata decision making power over the strategy and general governance of the GYRO™ protocol.
+**Web3 infrastructure should not ask for trust, it should beget it.** Transparent automation is one of the core value propositions of Web3 and is a foundation for trust. From rules-based monetary policy, to providing clarity over the current system state - Gyroscope will be transparent and based on smart-contract encoded rules.
 
-The DeFi services offered through GYROSCOPE™ and for use of the stablecoin include:
+**Web3 infrastructure should be governed by its users.** While short-term responses can be automated, decentralized governance must lead the long-term evolution. Toward this end, we combine the best of technology and community to create “a cyberspace not only occupied, but governed by its citizens” [^1]. Gyroscope will ensure that everyone participating in the protocol is empowered to govern its evolution.
 
-- Blockchain based payment processing and verification services for the stablecoin and other digital currencies and tokens;
-- Electronic transfer of the stablecoin, other digital currencies, tokens and financial instruments;
-- Clearing and reconciling financial transactions;
-- Blockchain-based payment processing and verification services with smart contracts, self-executing code is used to process and manage financial and other transactions that occur on the blockchain;
-- Issuance and management of the stablecoin, other digital currency, virtual tokens, virtual token payment processing;
-- Trading and exchange services for the stablecoin, other digital currency, virtual tokens, commodities, financial derivatives, interest rate products, and equities;
-- Real-time currency trading;
-- Monetary exchange services, exchanging cash of others for digitized assets, namely, bitcoin, ethereum, cryptocurrency, digital tokens, collateral for derivatives, derivative contracts, virtual currency, and digital currency;
+**Web3 infrastructure should be open.** There is great merit in building from first principles and adopting good ideas irrespective of where they come from. While the bar must be high, existing ‘lego blocks’ [^2] should be repurposed whenever possible. The Gyroscope protocol should always be open to ideas, users, and developers.
 
-Users typically access DeFi through use of both downloadable and temporary non-downloadable software called decentralized applications (“dapps”), most of which currently run on the Ethereum blockchain, for creating, managing, executing and enforcing contracts using a distributed ledger and blockchain technology. The use of the stablecoin, GYFI™, and all of the transaction and financial services available from GYROSCOPE™ are accessible through GYROSCOPE™ dapps.
-
-Learn more about GYROSCOPE™, GYRO™, and GYFI™ [here](https://docs.gyro.finance).
-
-Participate in our ongoing [beta test](https://test.gyro.finance).
+[^1]: Optimism, ‘The Optimistic Vision’, [https://www.optimism.io/vision](https://www.optimism.io/vision)
+[^2]: Buterin, ‘Ethereum Whitepaper’, [https://ethereum.org/en/whitepaper/](https://www.optimism.io/vision)
