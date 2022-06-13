@@ -9,18 +9,20 @@
     - name: Blog
       link: https://medium.com/gyroscope-protocol/latest
       new_window: true
+    - name: App
+      link: https://test.gyro.finance
+      new_window: true
   #- name: About
   #  link: /about/
   # - name: Contact
   #   link: /contact/
 - links:
-    - name: App
-      link: https://test.gyro.finance
-      new_window: true
     - name: Info
       link: "info"
     - name: Vision
       link: "vision"
+    - name: Terms of Service
+      link: "terms"
 - links:
     - name: Twitter
       link: https://twitter.com/gyrostable/
