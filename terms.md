@@ -1,5 +1,3 @@
-# Terms of Service
-
 Please read these Terms of Service (this “Agreement”) carefully. Your use or access of the Site or the Services (as defined below) constitutes your consent to this Agreement.
 
 This Agreement is between you (the “User” and collectively with others using the Site, “Users”) and FTL Labs, a company incorporated and registered in the Cayman Islands (“Company” or “we,” “our” or “us” and together with you, the “Parties”) concerning your use of (including any access to) Company’s websites, currently located at gyro.finance mobile applications, web applications, decentralized applications, smart contracts and API located or made available or accessible at any of the Company’s websites (together with any materials and services available therein and successor website(s) or application(s) thereto, the “Site”). This Agreement hereby incorporates by this reference any additional terms and conditions with respect to the Site posted by Company to the Site, or otherwise made available to you by Company.
